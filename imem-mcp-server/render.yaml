@@ -13,7 +13,3 @@ services:
         value: /app/palace
       - key: PORT
         value: 10000
-    disk:
-      name: palace-storage
-      mountPath: /app/palace
-      sizeGB: 1
