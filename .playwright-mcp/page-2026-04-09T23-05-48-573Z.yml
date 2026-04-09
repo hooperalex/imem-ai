@@ -1,0 +1,310 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e5]:
+          - link "Render" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "Render" [ref=e8]
+          - button "A Alex's workspace" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]:
+              - generic [ref=e14]: A
+              - generic "Alex's workspace" [ref=e15]
+              - img [ref=e16]
+        - generic [ref=e20]:
+          - navigation [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - button "New Web Service" [ref=e468] [cursor=pointer]:
+                  - generic [ref=e469]:
+                    - img [ref=e470]
+                    - generic [ref=e472]:
+                      - generic [ref=e473]: New Web Service
+                      - img [ref=e474]
+          - button "Search Ctrl + K" [ref=e32] [cursor=pointer]:
+            - img [ref=e34]
+            - text: Search
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - generic [ref=e39]: Ctrl
+              - generic [ref=e40]: +
+              - generic [ref=e41]: K
+              - generic [ref=e42]: K
+        - generic [ref=e43]:
+          - button "New" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]:
+              - img [ref=e47]
+              - generic [ref=e49]: New
+          - button "Upgrade" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - generic [ref=e55]: Upgrade
+          - button "Help" [ref=e57] [cursor=pointer]:
+            - img "Help" [ref=e58]
+          - button "h" [ref=e63] [cursor=pointer]:
+            - generic [ref=e65]: h
+      - main [ref=e477]:
+        - heading "New Web Service" [level=1] [ref=e480]
+        - generic [ref=e481]:
+          - generic [ref=e484]: Source Code
+          - generic [ref=e485]:
+            - list [ref=e486]:
+              - listitem [ref=e487]:
+                - tab "Git Provider" [selected] [ref=e488] [cursor=pointer]
+              - listitem [ref=e489]:
+                - tab "Public Git Repository" [ref=e490] [cursor=pointer]
+              - listitem [ref=e491]:
+                - tab "Existing Image" [ref=e492] [cursor=pointer]
+            - tabpanel "Git Provider" [ref=e494]:
+              - generic [ref=e496]:
+                - generic [ref=e497]:
+                  - generic [ref=e500]:
+                    - img
+                    - textbox "Search" [active] [ref=e501]
+                  - button "Credentials (1)" [ref=e504] [cursor=pointer]:
+                    - generic [ref=e506]:
+                      - img [ref=e509]
+                      - img [ref=e513]
+                      - img [ref=e520]
+                    - generic [ref=e524]: Credentials (1)
+                    - img [ref=e525]
+                - list [ref=e529]:
+                  - listitem [ref=e530]:
+                    - button "GitHub hooperalex / imem-ai seconds ago" [ref=e531] [cursor=pointer]:
+                      - generic [ref=e532]:
+                        - img "GitHub" [ref=e534]
+                        - generic [ref=e536]: hooperalex
+                        - generic [ref=e537]: /
+                        - generic [ref=e538]: imem-ai
+                      - time [ref=e540]: seconds ago
+                  - listitem [ref=e541]:
+                    - button "GitHub hooperalex / bimbo Jan 5" [ref=e542] [cursor=pointer]:
+                      - generic [ref=e543]:
+                        - img "GitHub" [ref=e545]
+                        - generic [ref=e547]: hooperalex
+                        - generic [ref=e548]: /
+                        - img [ref=e549]
+                        - generic [ref=e551]: bimbo
+                      - time [ref=e553]: Jan 5
+                  - listitem [ref=e554]:
+                    - button "GitHub hooperalex / podify.chat Dec 22, 2025" [ref=e555] [cursor=pointer]:
+                      - generic [ref=e556]:
+                        - img "GitHub" [ref=e558]
+                        - generic [ref=e560]: hooperalex
+                        - generic [ref=e561]: /
+                        - img [ref=e562]
+                        - generic [ref=e564]: podify.chat
+                      - time [ref=e566]: Dec 22, 2025
+                  - listitem [ref=e567]:
+                    - button "GitHub hooperalex / sev1 Dec 15, 2025 View repo" [ref=e568] [cursor=pointer]:
+                      - generic [ref=e569]:
+                        - img "GitHub" [ref=e571]
+                        - generic [ref=e573]: hooperalex
+                        - generic [ref=e574]: /
+                        - generic [ref=e575]: sev1
+                      - time [ref=e577]: Dec 15, 2025
+                      - link "View repo" [ref=e579]:
+                        - /url: https://github.com/hooperalex/sev1
+                        - text: View repo
+                        - img [ref=e581]
+                  - listitem [ref=e584]:
+                    - button "GitHub hooperalex / ai-readiness-dashboard Dec 10, 2025" [ref=e585] [cursor=pointer]:
+                      - generic [ref=e586]:
+                        - img "GitHub" [ref=e588]
+                        - generic [ref=e590]: hooperalex
+                        - generic [ref=e591]: /
+                        - img [ref=e592]
+                        - generic [ref=e594]: ai-readiness-dashboard
+                      - time [ref=e596]: Dec 10, 2025
+                  - listitem [ref=e597]:
+                    - button "GitHub hooperalex / mindya-pet Oct 2, 2025" [ref=e598] [cursor=pointer]:
+                      - generic [ref=e599]:
+                        - img "GitHub" [ref=e601]
+                        - generic [ref=e603]: hooperalex
+                        - generic [ref=e604]: /
+                        - img [ref=e605]
+                        - generic [ref=e607]: mindya-pet
+                      - time [ref=e609]: Oct 2, 2025
+                  - listitem [ref=e610]:
+                    - button "GitHub hooperalex / podchat Oct 2, 2025" [ref=e611] [cursor=pointer]:
+                      - generic [ref=e612]:
+                        - img "GitHub" [ref=e614]
+                        - generic [ref=e616]: hooperalex
+                        - generic [ref=e617]: /
+                        - img [ref=e618]
+                        - generic [ref=e620]: podchat
+                      - time [ref=e622]: Oct 2, 2025
+                  - listitem [ref=e623]:
+                    - button "GitHub hooperalex / letta Aug 29, 2025" [ref=e624] [cursor=pointer]:
+                      - generic [ref=e625]:
+                        - img "GitHub" [ref=e627]
+                        - generic [ref=e629]: hooperalex
+                        - generic [ref=e630]: /
+                        - img [ref=e631]
+                        - generic [ref=e633]: letta
+                      - time [ref=e635]: Aug 29, 2025
+                  - listitem [ref=e636]:
+                    - button "GitHub hooperalex / coder Jun 26, 2025" [ref=e637] [cursor=pointer]:
+                      - generic [ref=e638]:
+                        - img "GitHub" [ref=e640]
+                        - generic [ref=e642]: hooperalex
+                        - generic [ref=e643]: /
+                        - img [ref=e644]
+                        - generic [ref=e646]: coder
+                      - time [ref=e648]: Jun 26, 2025
+                  - listitem [ref=e649]:
+                    - button "GitHub hooperalex / thefomo_live Jun 26, 2025" [ref=e650] [cursor=pointer]:
+                      - generic [ref=e651]:
+                        - img "GitHub" [ref=e653]
+                        - generic [ref=e655]: hooperalex
+                        - generic [ref=e656]: /
+                        - img [ref=e657]
+                        - generic [ref=e659]: thefomo_live
+                      - time [ref=e661]: Jun 26, 2025
+                  - listitem [ref=e662]:
+                    - button "GitHub hooperalex / exammer Mar 26, 2025" [ref=e663] [cursor=pointer]:
+                      - generic [ref=e664]:
+                        - img "GitHub" [ref=e666]
+                        - generic [ref=e668]: hooperalex
+                        - generic [ref=e669]: /
+                        - generic [ref=e670]: exammer
+                      - time [ref=e672]: Mar 26, 2025
+                  - listitem [ref=e673]:
+                    - button "GitHub hooperalex / bedtime Feb 12, 2025" [ref=e674] [cursor=pointer]:
+                      - generic [ref=e675]:
+                        - img "GitHub" [ref=e677]
+                        - generic [ref=e679]: hooperalex
+                        - generic [ref=e680]: /
+                        - img [ref=e681]
+                        - generic [ref=e683]: bedtime
+                      - time [ref=e685]: Feb 12, 2025
+                  - listitem [ref=e686]:
+                    - button "GitHub hooperalex / bedtime1 Feb 12, 2025" [ref=e687] [cursor=pointer]:
+                      - generic [ref=e688]:
+                        - img "GitHub" [ref=e690]
+                        - generic [ref=e692]: hooperalex
+                        - generic [ref=e693]: /
+                        - img [ref=e694]
+                        - generic [ref=e696]: bedtime1
+                      - time [ref=e698]: Feb 12, 2025
+                  - listitem [ref=e699]:
+                    - button "GitHub hooperalex / warpone Feb 11, 2025" [ref=e700] [cursor=pointer]:
+                      - generic [ref=e701]:
+                        - img "GitHub" [ref=e703]
+                        - generic [ref=e705]: hooperalex
+                        - generic [ref=e706]: /
+                        - img [ref=e707]
+                        - generic [ref=e709]: warpone
+                      - time [ref=e711]: Feb 11, 2025
+                  - listitem [ref=e712]:
+                    - button "GitHub hooperalex / warponeai Feb 7, 2025" [ref=e713] [cursor=pointer]:
+                      - generic [ref=e714]:
+                        - img "GitHub" [ref=e716]
+                        - generic [ref=e718]: hooperalex
+                        - generic [ref=e719]: /
+                        - img [ref=e720]
+                        - generic [ref=e722]: warponeai
+                      - time [ref=e724]: Feb 7, 2025
+                  - listitem [ref=e725]:
+                    - button "GitHub hooperalex / TimeMachine Sep 18, 2024" [ref=e726] [cursor=pointer]:
+                      - generic [ref=e727]:
+                        - img "GitHub" [ref=e729]
+                        - generic [ref=e731]: hooperalex
+                        - generic [ref=e732]: /
+                        - img [ref=e733]
+                        - generic [ref=e735]: TimeMachine
+                      - time [ref=e737]: Sep 18, 2024
+                  - listitem [ref=e738]:
+                    - button "GitHub hooperalex / TM2 Sep 17, 2024" [ref=e739] [cursor=pointer]:
+                      - generic [ref=e740]:
+                        - img "GitHub" [ref=e742]
+                        - generic [ref=e744]: hooperalex
+                        - generic [ref=e745]: /
+                        - img [ref=e746]
+                        - generic [ref=e748]: TM2
+                      - time [ref=e750]: Sep 17, 2024
+                  - listitem [ref=e751]:
+                    - button "GitHub hooperalex / memgpt Sep 14, 2024" [ref=e752] [cursor=pointer]:
+                      - generic [ref=e753]:
+                        - img "GitHub" [ref=e755]
+                        - generic [ref=e757]: hooperalex
+                        - generic [ref=e758]: /
+                        - img [ref=e759]
+                        - generic [ref=e761]: memgpt
+                      - time [ref=e763]: Sep 14, 2024
+                  - listitem [ref=e764]:
+                    - button "GitHub hooperalex / server-side-example-serverless-vercel Jul 8, 2024" [ref=e765] [cursor=pointer]:
+                      - generic [ref=e766]:
+                        - img "GitHub" [ref=e768]
+                        - generic [ref=e770]: hooperalex
+                        - generic [ref=e771]: /
+                        - generic [ref=e772]: server-side-example-serverless-vercel
+                      - time [ref=e774]: Jul 8, 2024
+                  - listitem [ref=e775]:
+                    - button "GitHub hooperalex / gpt-dall-e-whisper Nov 16, 2023" [ref=e776] [cursor=pointer]:
+                      - generic [ref=e777]:
+                        - img "GitHub" [ref=e779]
+                        - generic [ref=e781]: hooperalex
+                        - generic [ref=e782]: /
+                        - generic [ref=e783]: gpt-dall-e-whisper
+                      - time [ref=e785]: Nov 16, 2023
+                  - listitem [ref=e786]:
+                    - button "GitHub hooperalex / test Apr 11, 2023" [ref=e787] [cursor=pointer]:
+                      - generic [ref=e788]:
+                        - img "GitHub" [ref=e790]
+                        - generic [ref=e792]: hooperalex
+                        - generic [ref=e793]: /
+                        - img [ref=e794]
+                        - generic [ref=e796]: test
+                      - time [ref=e798]: Apr 11, 2023
+                  - listitem [ref=e799]:
+                    - button "GitHub hooperalex / Readarr Jan 23, 2022" [ref=e800] [cursor=pointer]:
+                      - generic [ref=e801]:
+                        - img "GitHub" [ref=e803]
+                        - generic [ref=e805]: hooperalex
+                        - generic [ref=e806]: /
+                        - generic [ref=e807]: Readarr
+                      - time [ref=e809]: Jan 23, 2022
+                  - listitem [ref=e810]:
+                    - button "GitHub hooperalex / tensortrade Jun 20, 2021" [ref=e811] [cursor=pointer]:
+                      - generic [ref=e812]:
+                        - img "GitHub" [ref=e814]
+                        - generic [ref=e816]: hooperalex
+                        - generic [ref=e817]: /
+                        - generic [ref=e818]: tensortrade
+                      - time [ref=e820]: Jun 20, 2021
+                  - listitem [ref=e821]:
+                    - button "GitHub hooperalex / breakout-trader Jun 2, 2021" [ref=e822] [cursor=pointer]:
+                      - generic [ref=e823]:
+                        - img "GitHub" [ref=e825]
+                        - generic [ref=e827]: hooperalex
+                        - generic [ref=e828]: /
+                        - generic [ref=e829]: breakout-trader
+                      - time [ref=e831]: Jun 2, 2021
+                  - listitem [ref=e832]:
+                    - button "GitHub hooperalex / Just_Jeans_Australia Sep 27, 2017" [ref=e833] [cursor=pointer]:
+                      - generic [ref=e834]:
+                        - img "GitHub" [ref=e836]
+                        - generic [ref=e838]: hooperalex
+                        - generic [ref=e839]: /
+                        - generic [ref=e840]: Just_Jeans_Australia
+                      - time [ref=e842]: Sep 27, 2017
+    - generic:
+      - generic:
+        - generic: "0 services selected:"
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic:
+                  - img
+                - generic: Move
+                - img
+      - generic:
+        - separator
+        - generic:
+          - generic:
+            - button:
+              - img
+  - iframe [ref=e465]:
+    

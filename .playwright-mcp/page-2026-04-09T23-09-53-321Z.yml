@@ -1,0 +1,332 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "hooperalex's projects Pro" [ref=e246] [cursor=pointer]:
+              - /url: /hooperalexs-projects
+              - img [ref=e247]
+              - generic [ref=e248]:
+                - generic [ref=e249]: hooperalex's projects
+                - generic [ref=e251]: Pro
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e418]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic:
+              - generic:
+                - link "Other Overview":
+                  - /url: /hooperalexs-projects/imem-web
+                  - generic:
+                    - img "Other":
+                      - img "Other"
+                  - generic:
+                    - generic: Overview
+                - link "Deployments":
+                  - /url: /hooperalexs-projects/imem-web/deployments
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Deployments
+                - link "Logs":
+                  - /url: /hooperalexs-projects/imem-web/logs
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Logs
+                - link "Analytics":
+                  - /url: /hooperalexs-projects/imem-web/analytics
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Analytics
+                - link "Speed Insights":
+                  - /url: /hooperalexs-projects/imem-web/speed-insights
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Speed Insights
+                - link "Observability":
+                  - /url: /hooperalexs-projects/imem-web/observability
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Observability
+                  - generic:
+                    - img
+                - link "Firewall":
+                  - /url: /hooperalexs-projects/imem-web/firewall
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Firewall
+                  - generic:
+                    - img
+                - link "CDN":
+                  - /url: /hooperalexs-projects/imem-web/cdn
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: CDN
+                  - generic:
+                    - img
+                - separator
+                - link "Domains":
+                  - /url: /hooperalexs-projects/imem-web/settings/domains
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Domains
+                - link "Integrations":
+                  - /url: /hooperalexs-projects/imem-web/settings/integrations
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Integrations
+                - link "Storage":
+                  - /url: /hooperalexs-projects/imem-web/stores
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Storage
+                - link "Flags":
+                  - /url: /hooperalexs-projects/imem-web/flags
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Flags
+                  - generic:
+                    - img
+                - link "Agent":
+                  - /url: /hooperalexs-projects/imem-web/agent
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Agent
+                  - generic:
+                    - img
+                - link "AI Gateway":
+                  - /url: /hooperalexs-projects/imem-web/ai-gateway
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: AI Gateway
+                  - generic:
+                    - img
+                - link "Sandboxes":
+                  - /url: /hooperalexs-projects/imem-web/sandboxes
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Sandboxes
+                - separator
+                - link "Usage":
+                  - /url: /hooperalexs-projects/imem-web/usage
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Usage
+                - link "Support":
+                  - /url: /hooperalexs-projects/imem-web/support
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Support
+                - link "Settings":
+                  - /url: /hooperalexs-projects/imem-web/settings
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Settings
+                  - generic:
+                    - img
+            - generic [ref=e33]:
+              - button "Settings" [ref=e252] [cursor=pointer]:
+                - img [ref=e37]
+                - generic [ref=e39]: Settings
+              - generic [ref=e42]:
+                - link "General" [ref=e253] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/general
+                  - generic [ref=e255]: General
+                - link "Build and Deployment" [ref=e256] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/build-and-deployment
+                  - generic [ref=e258]: Build and Deployment
+                - link "Environments" [ref=e259] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/environments
+                  - generic [ref=e261]: Environments
+                - link "Environment Variables" [ref=e262] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/environment-variables
+                  - generic [ref=e264]: Environment Variables
+                - link "Git" [ref=e265] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/git
+                  - generic [ref=e267]: Git
+                - link "Deployment Protection" [ref=e268] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/deployment-protection
+                  - generic [ref=e270]: Deployment Protection
+                - link "Functions" [ref=e271] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/functions
+                  - generic [ref=e273]: Functions
+                - link "Cron Jobs" [ref=e274] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/cron-jobs
+                  - generic [ref=e276]: Cron Jobs
+                - link "Microfrontends" [ref=e277] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/microfrontends
+                  - generic [ref=e279]: Microfrontends
+                - link "Project Members" [ref=e280] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/project-members
+                  - generic [ref=e282]: Project Members
+                - link "Webhooks" [ref=e283] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/webhooks
+                  - generic [ref=e285]: Webhooks
+                - link "Drains" [ref=e286] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/drains
+                  - generic [ref=e288]: Drains
+                - link "Security" [ref=e289] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/security
+                  - generic [ref=e291]: Security
+                - link "Connectivity" [ref=e292] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/connectivity
+                  - generic [ref=e294]: Connectivity
+                - link "Advanced" [ref=e295] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/settings/advanced
+                  - generic [ref=e297]: Advanced
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e90]:
+                - generic [ref=e91]: Ship
+                - generic [ref=e93]: "26"
+              - button "Dismiss" [ref=e94] [cursor=pointer]:
+                - img [ref=e96]
+            - generic [ref=e98]:
+              - generic [ref=e99]: Built for you to ship what’s next.
+              - link "Save the date" [ref=e101] [cursor=pointer]:
+                - /url: /ship
+                - generic [ref=e102]:
+                  - text: Save the date
+                  - img [ref=e103]
+          - generic [ref=e106]:
+            - button "Avatar for hooperalex hooperalex" [ref=e107] [cursor=pointer]:
+              - img "Avatar for hooperalex" [ref=e108]:
+                - img "Avatar for hooperalex" [ref=e109]
+              - generic [ref=e111]: hooperalex
+              - img [ref=e113]
+            - button "199 unseen notifications" [ref=e299] [cursor=pointer]:
+              - generic [ref=e300]:
+                - generic [ref=e301]:
+                  - img
+                - img [ref=e302]
+      - button [ref=e120] [cursor=pointer]:
+        - img [ref=e121]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e128]:
+          - link "Other imem-web" [ref=e304] [cursor=pointer]:
+            - /url: /hooperalexs-projects/imem-web
+            - img "Other" [ref=e305]:
+              - img "Other" [ref=e306]
+            - generic [ref=e308]: imem-web
+          - button [ref=e133] [cursor=pointer]:
+            - img [ref=e135]
+          - link "Back to team view" [ref=e309] [cursor=pointer]:
+            - /url: /hooperalexs-projects/~/settings/environment-variables
+            - img [ref=e311]
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - link "Project Settings" [ref=e313] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/settings
+            - img [ref=e146]
+          - generic [ref=e148]: Environment Variables
+        - button "Open page actions menu" [ref=e150] [cursor=pointer]:
+          - img [ref=e152]
+      - generic [ref=e161]:
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - heading "Environment Variables" [level=2] [ref=e165]
+            - paragraph [ref=e166]:
+              - text: Store API keys, tokens, and config securely.
+              - link "Learn more" [ref=e167] [cursor=pointer]:
+                - /url: /docs/environment-variables
+                - text: Learn more
+                - img [ref=e168]
+          - generic [ref=e170]:
+            - button "Link Shared Variable" [ref=e171] [cursor=pointer]:
+              - generic [ref=e172]: Link Shared Variable
+            - button "Add Environment Variable" [ref=e173] [cursor=pointer]:
+              - generic [ref=e174]: Add Environment Variable
+        - tablist [ref=e175]:
+          - tab "Project" [selected] [ref=e176] [cursor=pointer]
+          - tab "Shared" [ref=e177] [cursor=pointer]
+        - generic [ref=e178]:
+          - generic [ref=e180]:
+            - searchbox "Search" [ref=e181]
+            - img [ref=e183]
+          - combobox [ref=e186]:
+            - generic [ref=e315]:
+              - searchbox [ref=e316]: All Environments
+              - button "Open menu" [ref=e317] [cursor=pointer]:
+                - img [ref=e318]
+          - generic [ref=e189]:
+            - generic:
+              - img
+            - combobox [ref=e190] [cursor=pointer]:
+              - option "Sort by…" [disabled]
+              - option "Last Updated" [selected]
+              - option "Name"
+              - option "Type"
+            - generic:
+              - img
+        - generic [ref=e192]:
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - img [ref=e428]
+              - generic [ref=e430]:
+                - button "NEXT_PUBLIC_MCP_ENDPOINT" [ref=e434] [cursor=pointer]:
+                  - generic "NEXT_PUBLIC_MCP_ENDPOINT" [ref=e435]
+                - generic [ref=e439]: All Environments
+            - generic [ref=e442]:
+              - button "Click to reveal" [ref=e443] [cursor=pointer]:
+                - img [ref=e445]
+              - paragraph [ref=e447]: •••••••••••••••
+            - generic [ref=e448]:
+              - generic [ref=e450]:
+                - generic [ref=e452] [cursor=pointer]:
+                  - generic [ref=e453]: Added
+                  - text: just now
+                - img [ref=e456]
+              - button "Menu" [ref=e459] [cursor=pointer]:
+                - img [ref=e463]
+          - generic [ref=e234]:
+            - generic [ref=e236] [cursor=pointer]:
+              - checkbox [checked] [ref=e237]
+              - img [ref=e239]
+            - generic [ref=e241]:
+              - text: Automatically expose
+              - link "System Environment Variables" [ref=e242] [cursor=pointer]:
+                - /url: /docs/environment-variables/system-environment-variables
+                - text: System Environment Variables
+                - img [ref=e243]
+  - alert [ref=e245]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - 'alertdialog "success: Added Environment Variable successfully. A new deployment is needed for changes to take effect." [ref=e465]':
+    - generic [ref=e466]:
+      - generic [ref=e467]:
+        - generic [ref=e468]: "success:"
+        - generic [ref=e469]: Added Environment Variable successfully. A new deployment is needed for changes to take effect.
+      - generic [ref=e470]:
+        - button "Dismiss" [ref=e471] [cursor=pointer]:
+          - generic [ref=e472]: Dismiss
+        - button "Redeploy" [ref=e473] [cursor=pointer]:
+          - generic [ref=e474]: Redeploy

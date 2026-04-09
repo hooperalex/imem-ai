@@ -1,0 +1,396 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Render" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Render" [ref=e8]
+        - button "A Alex's workspace" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: A
+            - generic "Alex's workspace" [ref=e15]
+            - img [ref=e16]
+      - generic [ref=e20]:
+        - navigation [ref=e21]:
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - generic [ref=e24]:
+                - img [ref=e25]
+                - generic [ref=e30]: New Blueprint
+        - button "Search Ctrl + K" [ref=e32] [cursor=pointer]:
+          - img [ref=e34]
+          - text: Search
+          - generic [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Ctrl
+            - generic [ref=e40]: +
+            - generic [ref=e41]: K
+            - generic [ref=e42]: K
+      - generic [ref=e43]:
+        - button "New" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]:
+            - img [ref=e47]
+            - generic [ref=e49]: New
+        - button "Upgrade" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]:
+            - img [ref=e53]
+            - generic [ref=e55]: Upgrade
+        - button "Help" [ref=e57] [cursor=pointer]:
+          - img "Help" [ref=e58]
+        - button "h" [ref=e63] [cursor=pointer]:
+          - generic [ref=e65]: h
+    - main [ref=e68]:
+      - generic [ref=e69]:
+        - heading "Create a new Web Service in Alex's workspace" [level=1] [ref=e70]:
+          - text: Create a new
+          - link "Web Service" [ref=e71] [cursor=pointer]:
+            - /url: https://render.com/docs/web-services
+          - text: in
+          - link "Alex's workspace" [ref=e72] [cursor=pointer]:
+            - /url: /w/tea-d3dl0gggjchc73akrl90/settings
+        - generic [ref=e75]: Connect your Git repository or use an existing public repository URL.
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e79]:
+            - heading "Connect a repository" [level=4] [ref=e84]
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Search repositories
+                - generic [ref=e89]:
+                  - img
+                  - textbox "Search repositories" [active] [ref=e90]:
+                    - /placeholder: Search
+              - list [ref=e92]:
+                - listitem [ref=e93]:
+                  - generic [ref=e94]:
+                    - img "GitHub" [ref=e96]
+                    - link "hooperalex / imem-ai" [ref=e98] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/imem-ai
+                      - generic [ref=e99]: hooperalex / imem-ai
+                    - generic [ref=e100]:
+                      - separator [ref=e101]: •
+                      - time [ref=e102]: a few seconds ago
+                  - button "Connect" [ref=e103] [cursor=pointer]
+                - listitem [ref=e104]:
+                  - generic [ref=e105]:
+                    - img "GitHub" [ref=e107]
+                    - link "hooperalex / bimbo" [ref=e109] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/bimbo
+                      - generic [ref=e110]: hooperalex / bimbo
+                    - img "Private" [ref=e111]
+                    - generic [ref=e113]:
+                      - separator [ref=e114]: •
+                      - time [ref=e115]: 3 months ago
+                  - button "Connect" [ref=e116] [cursor=pointer]
+                - listitem [ref=e117]:
+                  - generic [ref=e118]:
+                    - img "GitHub" [ref=e120]
+                    - link "hooperalex / podify.chat" [ref=e122] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/podify.chat
+                      - generic [ref=e123]: hooperalex / podify.chat
+                    - img "Private" [ref=e124]
+                    - generic [ref=e126]:
+                      - separator [ref=e127]: •
+                      - time [ref=e128]: 4 months ago
+                  - button "Connect" [ref=e129] [cursor=pointer]
+                - listitem [ref=e130]:
+                  - generic [ref=e131]:
+                    - img "GitHub" [ref=e133]
+                    - link "hooperalex / sev1" [ref=e135] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/sev1
+                      - generic [ref=e136]: hooperalex / sev1
+                    - generic [ref=e137]:
+                      - separator [ref=e138]: •
+                      - time [ref=e139]: 4 months ago
+                  - button "Connect" [ref=e140] [cursor=pointer]
+                - listitem [ref=e141]:
+                  - generic [ref=e142]:
+                    - img "GitHub" [ref=e144]
+                    - link "hooperalex / ai-readiness-dashboard" [ref=e146] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/ai-readiness-dashboard
+                      - generic [ref=e147]: hooperalex / ai-readiness-dashboard
+                    - img "Private" [ref=e148]
+                    - generic [ref=e150]:
+                      - separator [ref=e151]: •
+                      - time [ref=e152]: 4 months ago
+                  - button "Connect" [ref=e153] [cursor=pointer]
+                - listitem [ref=e154]:
+                  - generic [ref=e155]:
+                    - img "GitHub" [ref=e157]
+                    - link "hooperalex / mindya-pet" [ref=e159] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/mindya-pet
+                      - generic [ref=e160]: hooperalex / mindya-pet
+                    - img "Private" [ref=e161]
+                    - generic [ref=e163]:
+                      - separator [ref=e164]: •
+                      - time [ref=e165]: 6 months ago
+                  - button "Connect" [ref=e166] [cursor=pointer]
+                - listitem [ref=e167]:
+                  - generic [ref=e168]:
+                    - img "GitHub" [ref=e170]
+                    - link "hooperalex / podchat" [ref=e172] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/podchat
+                      - generic [ref=e173]: hooperalex / podchat
+                    - img "Private" [ref=e174]
+                    - generic [ref=e176]:
+                      - separator [ref=e177]: •
+                      - time [ref=e178]: 6 months ago
+                  - button "Connect" [ref=e179] [cursor=pointer]
+                - listitem [ref=e180]:
+                  - generic [ref=e181]:
+                    - img "GitHub" [ref=e183]
+                    - link "hooperalex / letta" [ref=e185] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/letta
+                      - generic [ref=e186]: hooperalex / letta
+                    - img "Private" [ref=e187]
+                    - generic [ref=e189]:
+                      - separator [ref=e190]: •
+                      - time [ref=e191]: 7 months ago
+                  - button "Connect" [ref=e192] [cursor=pointer]
+                - listitem [ref=e193]:
+                  - generic [ref=e194]:
+                    - img "GitHub" [ref=e196]
+                    - link "hooperalex / coder" [ref=e198] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/coder
+                      - generic [ref=e199]: hooperalex / coder
+                    - img "Private" [ref=e200]
+                    - generic [ref=e202]:
+                      - separator [ref=e203]: •
+                      - time [ref=e204]: 9 months ago
+                  - button "Connect" [ref=e205] [cursor=pointer]
+                - listitem [ref=e206]:
+                  - generic [ref=e207]:
+                    - img "GitHub" [ref=e209]
+                    - link "hooperalex / thefomo_live" [ref=e211] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/thefomo_live
+                      - generic [ref=e212]: hooperalex / thefomo_live
+                    - img "Private" [ref=e213]
+                    - generic [ref=e215]:
+                      - separator [ref=e216]: •
+                      - time [ref=e217]: 9 months ago
+                  - button "Connect" [ref=e218] [cursor=pointer]
+                - listitem [ref=e219]:
+                  - generic [ref=e220]:
+                    - img "GitHub" [ref=e222]
+                    - link "hooperalex / exammer" [ref=e224] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/exammer
+                      - generic [ref=e225]: hooperalex / exammer
+                    - generic [ref=e226]:
+                      - separator [ref=e227]: •
+                      - time [ref=e228]: a year ago
+                  - button "Connect" [ref=e229] [cursor=pointer]
+                - listitem [ref=e230]:
+                  - generic [ref=e231]:
+                    - img "GitHub" [ref=e233]
+                    - link "hooperalex / bedtime" [ref=e235] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/bedtime
+                      - generic [ref=e236]: hooperalex / bedtime
+                    - img "Private" [ref=e237]
+                    - generic [ref=e239]:
+                      - separator [ref=e240]: •
+                      - time [ref=e241]: a year ago
+                  - button "Connect" [ref=e242] [cursor=pointer]
+                - listitem [ref=e243]:
+                  - generic [ref=e244]:
+                    - img "GitHub" [ref=e246]
+                    - link "hooperalex / bedtime1" [ref=e248] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/bedtime1
+                      - generic [ref=e249]: hooperalex / bedtime1
+                    - img "Private" [ref=e250]
+                    - generic [ref=e252]:
+                      - separator [ref=e253]: •
+                      - time [ref=e254]: a year ago
+                  - button "Connect" [ref=e255] [cursor=pointer]
+                - listitem [ref=e256]:
+                  - generic [ref=e257]:
+                    - img "GitHub" [ref=e259]
+                    - link "hooperalex / warpone" [ref=e261] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/warpone
+                      - generic [ref=e262]: hooperalex / warpone
+                    - img "Private" [ref=e263]
+                    - generic [ref=e265]:
+                      - separator [ref=e266]: •
+                      - time [ref=e267]: a year ago
+                  - button "Connect" [ref=e268] [cursor=pointer]
+                - listitem [ref=e269]:
+                  - generic [ref=e270]:
+                    - img "GitHub" [ref=e272]
+                    - link "hooperalex / warponeai" [ref=e274] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/warponeai
+                      - generic [ref=e275]: hooperalex / warponeai
+                    - img "Private" [ref=e276]
+                    - generic [ref=e278]:
+                      - separator [ref=e279]: •
+                      - time [ref=e280]: a year ago
+                  - button "Connect" [ref=e281] [cursor=pointer]
+                - listitem [ref=e282]:
+                  - generic [ref=e283]:
+                    - img "GitHub" [ref=e285]
+                    - link "hooperalex / TimeMachine" [ref=e287] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/TimeMachine
+                      - generic [ref=e288]: hooperalex / TimeMachine
+                    - img "Private" [ref=e289]
+                    - generic [ref=e291]:
+                      - separator [ref=e292]: •
+                      - time [ref=e293]: 2 years ago
+                  - button "Connect" [ref=e294] [cursor=pointer]
+                - listitem [ref=e295]:
+                  - generic [ref=e296]:
+                    - img "GitHub" [ref=e298]
+                    - link "hooperalex / TM2" [ref=e300] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/TM2
+                      - generic [ref=e301]: hooperalex / TM2
+                    - img "Private" [ref=e302]
+                    - generic [ref=e304]:
+                      - separator [ref=e305]: •
+                      - time [ref=e306]: 2 years ago
+                  - button "Connect" [ref=e307] [cursor=pointer]
+                - listitem [ref=e308]:
+                  - generic [ref=e309]:
+                    - img "GitHub" [ref=e311]
+                    - link "hooperalex / memgpt" [ref=e313] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/memgpt
+                      - generic [ref=e314]: hooperalex / memgpt
+                    - img "Private" [ref=e315]
+                    - generic [ref=e317]:
+                      - separator [ref=e318]: •
+                      - time [ref=e319]: 2 years ago
+                  - button "Connect" [ref=e320] [cursor=pointer]
+                - listitem [ref=e321]:
+                  - generic [ref=e322]:
+                    - img "GitHub" [ref=e324]
+                    - link "hooperalex / server-side-example-serverless-vercel" [ref=e326] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/server-side-example-serverless-vercel
+                      - generic [ref=e327]: hooperalex / server-side-example-serverless-vercel
+                    - generic [ref=e328]:
+                      - separator [ref=e329]: •
+                      - time [ref=e330]: 2 years ago
+                  - button "Connect" [ref=e331] [cursor=pointer]
+                - listitem [ref=e332]:
+                  - generic [ref=e333]:
+                    - img "GitHub" [ref=e335]
+                    - link "hooperalex / gpt-dall-e-whisper" [ref=e337] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/gpt-dall-e-whisper
+                      - generic [ref=e338]: hooperalex / gpt-dall-e-whisper
+                    - generic [ref=e339]:
+                      - separator [ref=e340]: •
+                      - time [ref=e341]: 2 years ago
+                  - button "Connect" [ref=e342] [cursor=pointer]
+                - listitem [ref=e343]:
+                  - generic [ref=e344]:
+                    - img "GitHub" [ref=e346]
+                    - link "hooperalex / test" [ref=e348] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/test
+                      - generic [ref=e349]: hooperalex / test
+                    - img "Private" [ref=e350]
+                    - generic [ref=e352]:
+                      - separator [ref=e353]: •
+                      - time [ref=e354]: 3 years ago
+                  - button "Connect" [ref=e355] [cursor=pointer]
+                - listitem [ref=e356]:
+                  - generic [ref=e357]:
+                    - img "GitHub" [ref=e359]
+                    - link "hooperalex / Readarr" [ref=e361] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/Readarr
+                      - generic [ref=e362]: hooperalex / Readarr
+                    - generic [ref=e363]:
+                      - separator [ref=e364]: •
+                      - time [ref=e365]: 4 years ago
+                  - button "Connect" [ref=e366] [cursor=pointer]
+                - listitem [ref=e367]:
+                  - generic [ref=e368]:
+                    - img "GitHub" [ref=e370]
+                    - link "hooperalex / tensortrade" [ref=e372] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/tensortrade
+                      - generic [ref=e373]: hooperalex / tensortrade
+                    - generic [ref=e374]:
+                      - separator [ref=e375]: •
+                      - time [ref=e376]: 5 years ago
+                  - button "Connect" [ref=e377] [cursor=pointer]
+                - listitem [ref=e378]:
+                  - generic [ref=e379]:
+                    - img "GitHub" [ref=e381]
+                    - link "hooperalex / breakout-trader" [ref=e383] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/breakout-trader
+                      - generic [ref=e384]: hooperalex / breakout-trader
+                    - generic [ref=e385]:
+                      - separator [ref=e386]: •
+                      - time [ref=e387]: 5 years ago
+                  - button "Connect" [ref=e388] [cursor=pointer]
+                - listitem [ref=e389]:
+                  - generic [ref=e390]:
+                    - img "GitHub" [ref=e392]
+                    - link "hooperalex / Just_Jeans_Australia" [ref=e394] [cursor=pointer]:
+                      - /url: https://github.com/hooperalex/Just_Jeans_Australia
+                      - generic [ref=e395]: hooperalex / Just_Jeans_Australia
+                    - generic [ref=e396]:
+                      - separator [ref=e397]: •
+                      - time [ref=e398]: 9 years ago
+                  - button "Connect" [ref=e399] [cursor=pointer]
+          - generic [ref=e401]:
+            - generic [ref=e404]:
+              - heading "Public Git Repository" [level=4] [ref=e406]
+              - generic [ref=e407]:
+                - text: Use a public repository by entering the URL below. Features like
+                - link "PR Previews" [ref=e408] [cursor=pointer]:
+                  - /url: https://render.com/docs/service-previews#pull-request-previews-git-backed
+                - text: and
+                - link "Auto-Deploy" [ref=e409] [cursor=pointer]:
+                  - /url: https://render.com/docs/deploys
+                - text: are not available if the repository has not been configured for Render.
+            - generic [ref=e411]:
+              - generic [ref=e413]:
+                - generic [ref=e414]: Repository URL
+                - textbox "Repository URL" [ref=e416]:
+                  - /placeholder: https://github.com/render-examples/express-hello-world
+              - button "Continue" [disabled] [ref=e417]
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - generic [ref=e420]:
+              - img "GitHub" [ref=e422]
+              - text: GitHub
+            - list [ref=e424]:
+              - listitem [ref=e425]:
+                - link "@hooperalex" [ref=e426] [cursor=pointer]:
+                  - /url: https://github.com/hooperalex
+                  - img [ref=e428]
+                  - text: "@hooperalex"
+                  - img [ref=e432]
+                - separator [ref=e435]: •
+                - generic [ref=e436]: 25 repos
+            - button "Configure account" [ref=e437] [cursor=pointer]:
+              - text: Configure account
+              - img [ref=e439]
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - img "GitLab" [ref=e445]
+              - text: GitLab
+            - list
+            - button "Connect account" [ref=e450] [cursor=pointer]:
+              - text: Connect account
+              - img [ref=e452]
+          - generic [ref=e454]:
+            - generic [ref=e455]:
+              - img [ref=e457]
+              - text: Bitbucket
+            - list
+            - button "Connect account" [ref=e461] [cursor=pointer]:
+              - text: Connect account
+              - img [ref=e463]
+  - generic:
+    - generic:
+      - generic: "0 services selected:"
+      - generic:
+        - generic:
+          - generic:
+            - button:
+              - generic:
+                - img
+              - generic: Move
+              - img
+    - generic:
+      - separator
+      - generic:
+        - generic:
+          - button:
+            - img

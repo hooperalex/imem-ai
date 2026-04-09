@@ -1,0 +1,547 @@
+- generic [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "hooperalex's projects Pro" [ref=e632] [cursor=pointer]:
+              - /url: /hooperalexs-projects
+              - img [ref=e633]
+              - generic [ref=e634]:
+                - generic [ref=e635]: hooperalex's projects
+                - generic [ref=e637]: Pro
+            - button [ref=e14] [cursor=pointer]:
+              - img [ref=e16]
+          - button "Find… F" [ref=e19]:
+            - generic [ref=e21]:
+              - img [ref=e23]
+              - generic [ref=e25]: Find…
+              - generic [ref=e27]: F
+        - navigation [ref=e29]:
+          - generic [ref=e32]:
+            - link "Other Overview" [ref=e638] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web
+              - img "Other" [ref=e640]:
+                - img "Other" [ref=e641]
+              - generic [ref=e643]: Overview
+            - link "Deployments" [ref=e644] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/deployments
+              - img [ref=e646]
+              - generic [ref=e649]: Deployments
+            - link "Logs" [ref=e650] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/logs
+              - img [ref=e652]
+              - generic [ref=e655]: Logs
+            - link "Analytics" [ref=e656] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/analytics
+              - img [ref=e658]
+              - generic [ref=e661]: Analytics
+            - link "Speed Insights" [ref=e662] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/speed-insights
+              - img [ref=e664]
+              - generic [ref=e667]: Speed Insights
+            - link "Observability" [ref=e668] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/observability
+              - img [ref=e670]
+              - generic [ref=e673]: Observability
+              - img [ref=e675]
+            - link "Firewall" [ref=e677] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/firewall
+              - img [ref=e679]
+              - generic [ref=e683]: Firewall
+              - img [ref=e685]
+            - link "CDN" [ref=e687] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/cdn
+              - img [ref=e689]
+              - generic [ref=e692]: CDN
+              - img [ref=e694]
+            - separator [ref=e85]
+            - link "Domains" [ref=e696] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/settings/domains
+              - img [ref=e698]
+              - generic [ref=e701]: Domains
+            - link "Integrations" [ref=e702] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/settings/integrations
+              - img [ref=e704]
+              - generic [ref=e707]: Integrations
+            - link "Storage" [ref=e708] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/stores
+              - img [ref=e710]
+              - generic [ref=e713]: Storage
+            - link "Flags" [ref=e714] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/flags
+              - img [ref=e716]
+              - generic [ref=e719]: Flags
+              - img [ref=e721]
+            - link "Agent" [ref=e723] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/agent
+              - img [ref=e725]
+              - generic [ref=e728]: Agent
+              - img [ref=e730]
+            - link "AI Gateway" [ref=e732] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/ai-gateway
+              - img [ref=e734]
+              - generic [ref=e737]: AI Gateway
+              - img [ref=e739]
+            - link "Sandboxes" [ref=e741] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/sandboxes
+              - img [ref=e743]
+              - generic [ref=e746]: Sandboxes
+            - separator [ref=e134]
+            - link "Usage" [ref=e747] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/usage
+              - img [ref=e749]
+              - generic [ref=e752]: Usage
+            - link "Support" [ref=e753] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/support
+              - img [ref=e755]
+              - generic [ref=e758]: Support
+            - link "Settings" [ref=e759] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/settings
+              - img [ref=e761]
+              - generic [ref=e764]: Settings
+              - img [ref=e766]
+        - generic [ref=e156]:
+          - generic [ref=e768]:
+            - generic [ref=e769]:
+              - generic [ref=e772]:
+                - generic [ref=e773]: Ship
+                - generic [ref=e775]: "26"
+              - button "Dismiss" [ref=e776] [cursor=pointer]:
+                - img [ref=e778]
+            - generic [ref=e780]:
+              - generic [ref=e781]: Built for you to ship what’s next.
+              - link "Save the date" [ref=e783] [cursor=pointer]:
+                - /url: /ship
+                - generic [ref=e784]:
+                  - text: Save the date
+                  - img [ref=e785]
+          - generic [ref=e158]:
+            - button "Avatar for hooperalex hooperalex" [ref=e787] [cursor=pointer]:
+              - img "Avatar for hooperalex" [ref=e788]:
+                - img "Avatar for hooperalex" [ref=e789]
+              - generic [ref=e791]: hooperalex
+              - img [ref=e793]
+            - button "199 unseen notifications" [ref=e796] [cursor=pointer]:
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - img
+                - img [ref=e799]
+      - button [ref=e164] [cursor=pointer]:
+        - img [ref=e165]
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e172]:
+          - link "Other imem-web" [ref=e801] [cursor=pointer]:
+            - /url: /hooperalexs-projects/imem-web
+            - img "Other" [ref=e802]:
+              - img "Other" [ref=e803]
+            - generic [ref=e805]: imem-web
+          - button [ref=e177] [cursor=pointer]:
+            - img [ref=e179]
+          - link "Back to team view" [ref=e806] [cursor=pointer]:
+            - /url: /hooperalexs-projects/~/deployments
+            - img [ref=e808]
+        - generic [ref=e188]: Deployments
+        - button "Open page actions menu" [ref=e190] [cursor=pointer]:
+          - img [ref=e192]
+      - generic [ref=e811]:
+        - generic [ref=e812]:
+          - combobox [ref=e814]:
+            - generic [ref=e815]:
+              - generic:
+                - img
+              - searchbox "All Branches…" [ref=e816]
+              - button "Open menu" [ref=e817] [cursor=pointer]:
+                - img [ref=e818]
+          - combobox [ref=e821]:
+            - generic [ref=e822]:
+              - generic:
+                - img
+              - searchbox "All Authors…" [ref=e823]
+              - button "Open menu" [ref=e824] [cursor=pointer]:
+                - img [ref=e825]
+          - button "Menu" [ref=e829] [cursor=pointer]:
+            - generic [ref=e830]:
+              - generic [ref=e832]: All Environments
+              - img [ref=e834]
+          - button "Select Date Range" [ref=e839] [cursor=pointer]:
+            - img [ref=e841]
+            - generic [ref=e843]: Select Date Range
+          - button "Filter by deployment status. 5 of 6 statuses selected" [ref=e846] [cursor=pointer]:
+            - generic [ref=e847]:
+              - generic [ref=e855]: Status
+              - generic "5 of 6 statuses selected" [ref=e856]:
+                - generic [ref=e857]: 5/6
+            - img [ref=e860]
+        - generic [ref=e864]:
+          - generic [ref=e866]:
+            - link [ref=e867] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/B6sf1AEaKBPsmDNeVkHWXEGDbqSX
+            - generic [ref=e869]:
+              - link "B6sf1AEaK" [ref=e872] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/B6sf1AEaKBPsmDNeVkHWXEGDbqSX
+                - paragraph [ref=e873]: B6sf1AEaK
+              - generic [ref=e875]:
+                - text: Production
+                - generic [ref=e878]:
+                  - img [ref=e880]
+                  - text: Current
+            - generic [ref=e883]:
+              - generic "This deployment is ready." [ref=e885]:
+                - generic [ref=e889]: Ready
+              - generic [ref=e893]: 23s
+            - generic [ref=e896]:
+              - generic [ref=e897]:
+                - img [ref=e898]
+                - link "View code" [ref=e900] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/B6sf1AEaKBPsmDNeVkHWXEGDbqSX/source
+              - generic [ref=e901]:
+                - img [ref=e902]
+                - link "vercel deploy" [ref=e904] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e905]:
+              - generic [ref=e907]:
+                - generic [ref=e909] [cursor=pointer]: 10h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e913] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e914]
+              - button "Deployment Actions" [expanded] [ref=e916] [cursor=pointer]:
+                - img [ref=e920]
+          - generic [ref=e923]:
+            - link [ref=e924] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/DientDXQ4muws1L8AMrxkH7Pah3h
+            - generic [ref=e926]:
+              - link "DientDXQ4" [ref=e929] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/DientDXQ4muws1L8AMrxkH7Pah3h
+                - paragraph [ref=e930]: DientDXQ4
+              - generic [ref=e932]:
+                - text: Production
+                - img [ref=e934]
+            - generic [ref=e937]:
+              - generic "This deployment is ready." [ref=e939]:
+                - generic [ref=e943]: Ready
+              - generic [ref=e947]: 18s
+            - generic [ref=e950]:
+              - generic [ref=e951]:
+                - img [ref=e952]
+                - link "View code" [ref=e954] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/DientDXQ4muws1L8AMrxkH7Pah3h/source
+              - generic [ref=e955]:
+                - img [ref=e956]
+                - link "vercel deploy" [ref=e958] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e959]:
+              - generic [ref=e961]:
+                - generic [ref=e963] [cursor=pointer]: 10h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e967] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e968]
+              - button "Deployment Actions" [ref=e970] [cursor=pointer]:
+                - img [ref=e974]
+          - generic [ref=e977]:
+            - link [ref=e978] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/2eoj6b6zn2jGYumCMhEZQ3yeECaF
+            - generic [ref=e980]:
+              - link "2eoj6b6zn" [ref=e983] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/2eoj6b6zn2jGYumCMhEZQ3yeECaF
+                - paragraph [ref=e984]: 2eoj6b6zn
+              - generic [ref=e986]:
+                - text: Production
+                - img [ref=e988]
+            - generic [ref=e991]:
+              - generic "This deployment is ready." [ref=e993]:
+                - generic [ref=e997]: Ready
+              - generic [ref=e1001]: 18s
+            - generic [ref=e1004]:
+              - generic [ref=e1005]:
+                - img [ref=e1006]
+                - link "View code" [ref=e1008] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/2eoj6b6zn2jGYumCMhEZQ3yeECaF/source
+              - generic [ref=e1009]:
+                - img [ref=e1010]
+                - link "vercel deploy" [ref=e1012] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1013]:
+              - generic [ref=e1015]:
+                - generic [ref=e1017] [cursor=pointer]: 10h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1021] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1022]
+              - button "Deployment Actions" [ref=e1024] [cursor=pointer]:
+                - img [ref=e1028]
+          - generic [ref=e1031]:
+            - link [ref=e1032] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/23nnNQQbvqSTUdtRr1xVHKD3HQzx
+            - generic [ref=e1034]:
+              - link "23nnNQQbv" [ref=e1037] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/23nnNQQbvqSTUdtRr1xVHKD3HQzx
+                - paragraph [ref=e1038]: 23nnNQQbv
+              - generic [ref=e1040]: Production
+            - generic [ref=e1042]:
+              - generic "This deployment had an error." [ref=e1044]:
+                - generic [ref=e1048]: Error
+              - generic [ref=e1052]: 13s
+            - generic [ref=e1055]:
+              - generic [ref=e1056]:
+                - img [ref=e1057]
+                - link "View code" [ref=e1059] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/23nnNQQbvqSTUdtRr1xVHKD3HQzx/source
+              - generic [ref=e1060]:
+                - img [ref=e1061]
+                - link "vercel deploy" [ref=e1063] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1064]:
+              - generic [ref=e1066]:
+                - generic [ref=e1068] [cursor=pointer]: 10h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1072] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1073]
+              - button "Deployment Actions" [ref=e1075] [cursor=pointer]:
+                - img [ref=e1079]
+          - generic [ref=e1082]:
+            - link [ref=e1083] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/28q5JKSQeUYW3nFYQv3x2bgJLd5j
+            - generic [ref=e1085]:
+              - link "28q5JKSQe" [ref=e1088] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/28q5JKSQeUYW3nFYQv3x2bgJLd5j
+                - paragraph [ref=e1089]: 28q5JKSQe
+              - generic [ref=e1091]: Production
+            - generic [ref=e1093]:
+              - generic "This deployment had an error." [ref=e1095]:
+                - generic [ref=e1099]: Error
+              - generic [ref=e1103]: 17s
+            - generic [ref=e1106]:
+              - generic [ref=e1107]:
+                - img [ref=e1108]
+                - link "View code" [ref=e1110] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/28q5JKSQeUYW3nFYQv3x2bgJLd5j/source
+              - generic [ref=e1111]:
+                - img [ref=e1112]
+                - link "vercel deploy" [ref=e1114] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1115]:
+              - generic [ref=e1117]:
+                - generic [ref=e1119] [cursor=pointer]: 10h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1123] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1124]
+              - button "Deployment Actions" [ref=e1126] [cursor=pointer]:
+                - img [ref=e1130]
+          - generic [ref=e1133]:
+            - link [ref=e1134] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/D7jjvzw12bZSQTQtwrqTmcfAqDm6
+            - generic [ref=e1136]:
+              - link "D7jjvzw12" [ref=e1139] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/D7jjvzw12bZSQTQtwrqTmcfAqDm6
+                - paragraph [ref=e1140]: D7jjvzw12
+              - generic [ref=e1142]: Production
+            - generic [ref=e1144]:
+              - generic "This deployment had an error." [ref=e1146]:
+                - generic [ref=e1150]: Error
+              - generic [ref=e1154]: 15s
+            - generic [ref=e1157]:
+              - generic [ref=e1158]:
+                - img [ref=e1159]
+                - link "View code" [ref=e1161] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/D7jjvzw12bZSQTQtwrqTmcfAqDm6/source
+              - generic [ref=e1162]:
+                - img [ref=e1163]
+                - link "vercel deploy" [ref=e1165] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1166]:
+              - generic [ref=e1168]:
+                - generic [ref=e1170] [cursor=pointer]: 10h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1174] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1175]
+              - button "Deployment Actions" [ref=e1177] [cursor=pointer]:
+                - img [ref=e1181]
+          - generic [ref=e1184]:
+            - link [ref=e1185] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/5bycrUr9b1vFuv5662X2E71wytMT
+            - generic [ref=e1187]:
+              - link "5bycrUr9b" [ref=e1190] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/5bycrUr9b1vFuv5662X2E71wytMT
+                - paragraph [ref=e1191]: 5bycrUr9b
+              - generic [ref=e1193]:
+                - text: Production
+                - img [ref=e1195]
+            - generic [ref=e1198]:
+              - generic "This deployment is ready." [ref=e1200]:
+                - generic [ref=e1204]: Ready
+              - generic [ref=e1208]: 20s
+            - generic [ref=e1211]:
+              - generic [ref=e1212]:
+                - img [ref=e1213]
+                - link "View code" [ref=e1215] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/5bycrUr9b1vFuv5662X2E71wytMT/source
+              - generic [ref=e1216]:
+                - img [ref=e1217]
+                - link "vercel deploy" [ref=e1219] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1220]:
+              - generic [ref=e1222]:
+                - generic [ref=e1224] [cursor=pointer]: 11h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1228] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1229]
+              - button "Deployment Actions" [ref=e1231] [cursor=pointer]:
+                - img [ref=e1235]
+          - generic [ref=e1238]:
+            - link [ref=e1239] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/J5LwDrfFjSANSgu1hdGhrYUt9XUK
+            - generic [ref=e1241]:
+              - link "J5LwDrfFj" [ref=e1244] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/J5LwDrfFjSANSgu1hdGhrYUt9XUK
+                - paragraph [ref=e1245]: J5LwDrfFj
+              - generic [ref=e1247]:
+                - text: Production
+                - img [ref=e1249]
+            - generic [ref=e1252]:
+              - generic "This deployment is ready." [ref=e1254]:
+                - generic [ref=e1258]: Ready
+              - generic [ref=e1262]: 18s
+            - generic [ref=e1265]:
+              - generic [ref=e1266]:
+                - img [ref=e1267]
+                - link "View code" [ref=e1269] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/J5LwDrfFjSANSgu1hdGhrYUt9XUK/source
+              - generic [ref=e1270]:
+                - img [ref=e1271]
+                - link "vercel deploy" [ref=e1273] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1274]:
+              - generic [ref=e1276]:
+                - generic [ref=e1278] [cursor=pointer]: 11h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1282] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1283]
+              - button "Deployment Actions" [ref=e1285] [cursor=pointer]:
+                - img [ref=e1289]
+          - generic [ref=e1292]:
+            - link [ref=e1293] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/4LxjJv8e3DH4QDRgBP26dvPZaecz
+            - generic [ref=e1295]:
+              - link "4LxjJv8e3" [ref=e1298] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/4LxjJv8e3DH4QDRgBP26dvPZaecz
+                - paragraph [ref=e1299]: 4LxjJv8e3
+              - generic [ref=e1301]:
+                - text: Production
+                - img [ref=e1303]
+            - generic [ref=e1306]:
+              - generic "This deployment is ready." [ref=e1308]:
+                - generic [ref=e1312]: Ready
+              - generic [ref=e1316]: 15s
+            - generic [ref=e1319]:
+              - generic [ref=e1320]:
+                - img [ref=e1321]
+                - link "View code" [ref=e1323] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/4LxjJv8e3DH4QDRgBP26dvPZaecz/source
+              - generic [ref=e1324]:
+                - img [ref=e1325]
+                - link "vercel deploy" [ref=e1327] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1328]:
+              - generic [ref=e1330]:
+                - generic [ref=e1332] [cursor=pointer]: 11h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1336] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1337]
+              - button "Deployment Actions" [ref=e1339] [cursor=pointer]:
+                - img [ref=e1343]
+          - generic [ref=e1346]:
+            - link [ref=e1347] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/J7bGBD5tNJQpdvmh5cw5SZBqbSkQ
+            - generic [ref=e1349]:
+              - link "J7bGBD5tN" [ref=e1352] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/J7bGBD5tNJQpdvmh5cw5SZBqbSkQ
+                - paragraph [ref=e1353]: J7bGBD5tN
+              - generic [ref=e1355]:
+                - text: Production
+                - img [ref=e1357]
+            - generic [ref=e1360]:
+              - generic "This deployment is ready." [ref=e1362]:
+                - generic [ref=e1366]: Ready
+              - generic [ref=e1370]: 15s
+            - generic [ref=e1373]:
+              - generic [ref=e1374]:
+                - img [ref=e1375]
+                - link "View code" [ref=e1377] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/J7bGBD5tNJQpdvmh5cw5SZBqbSkQ/source
+              - generic [ref=e1378]:
+                - img [ref=e1379]
+                - link "vercel deploy" [ref=e1381] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1382]:
+              - generic [ref=e1384]:
+                - generic [ref=e1386] [cursor=pointer]: 11h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1390] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1391]
+              - button "Deployment Actions" [ref=e1393] [cursor=pointer]:
+                - img [ref=e1397]
+          - generic [ref=e1400]:
+            - link [ref=e1401] [cursor=pointer]:
+              - /url: /hooperalexs-projects/imem-web/CStP1DcXaEChCd9RamLbVZAuPp21
+            - generic [ref=e1403]:
+              - link "CStP1DcXa" [ref=e1406] [cursor=pointer]:
+                - /url: /hooperalexs-projects/imem-web/CStP1DcXaEChCd9RamLbVZAuPp21
+                - paragraph [ref=e1407]: CStP1DcXa
+              - generic [ref=e1409]:
+                - text: Production
+                - img [ref=e1411]
+            - generic [ref=e1414]:
+              - generic "This deployment is ready." [ref=e1416]:
+                - generic [ref=e1420]: Ready
+              - generic [ref=e1424]: 24s
+            - generic [ref=e1427]:
+              - generic [ref=e1428]:
+                - img [ref=e1429]
+                - link "View code" [ref=e1431] [cursor=pointer]:
+                  - /url: /hooperalexs-projects/imem-web/CStP1DcXaEChCd9RamLbVZAuPp21/source
+              - generic [ref=e1432]:
+                - img [ref=e1433]
+                - link "vercel deploy" [ref=e1435] [cursor=pointer]:
+                  - /url: /docs/cli/deploy
+            - generic [ref=e1436]:
+              - generic [ref=e1438]:
+                - generic [ref=e1440] [cursor=pointer]: 11h ago by hooperalex
+                - img "hooperalex Avatar" [ref=e1444] [cursor=pointer]:
+                  - img "hooperalex Avatar" [ref=e1445]
+              - button "Deployment Actions" [ref=e1447] [cursor=pointer]:
+                - img [ref=e1451]
+        - generic [ref=e1453]:
+          - paragraph [ref=e1454]:
+            - text: Deployment Retention is enabled for this project — some deployments will be deleted after a set time period.
+            - link "Learn more" [ref=e1455] [cursor=pointer]:
+              - /url: /docs/security/deployment-retention
+              - text: Learn more
+              - img [ref=e1456]
+          - button "View Recently Deleted" [ref=e1458] [cursor=pointer]:
+            - generic [ref=e1459]: View Recently Deleted
+  - alert [ref=e1461]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - menu "Deployment Actions" [active] [ref=e1463]:
+    - generic [ref=e1465]:
+      - menuitem "Instant Rollback" [disabled]:
+        - generic:
+          - generic: Instant Rollback
+        - generic:
+          - img
+    - generic [ref=e1467]:
+      - menuitem "Promote" [disabled]:
+        - generic:
+          - generic: Promote
+        - generic:
+          - img
+    - separator [ref=e1468]
+    - menuitem "Redeploy" [ref=e1469] [cursor=pointer]:
+      - generic [ref=e1470]: Redeploy
+    - menuitem "Inspect Deployment" [ref=e1471] [cursor=pointer]:
+      - generic [ref=e1472]: Inspect Deployment
+    - menuitem "View Source" [ref=e1473] [cursor=pointer]:
+      - generic [ref=e1474]: View Source
+    - menuitem "Copy URL" [ref=e1475] [cursor=pointer]:
+      - generic [ref=e1476]: Copy URL
+    - menuitem "Assign Domain" [ref=e1477] [cursor=pointer]:
+      - generic [ref=e1478]: Assign Domain
+    - menuitem "Visit" [ref=e1479] [cursor=pointer]:
+      - text: Visit
+      - img [ref=e1480]

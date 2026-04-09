@@ -1,0 +1,608 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "hooperalex's projects Pro" [ref=e10] [cursor=pointer]:
+              - /url: /hooperalexs-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: hooperalex's projects
+                - generic [ref=e15]: Pro
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e34]:
+            - link "Projects" [ref=e35] [cursor=pointer]:
+              - /url: /hooperalexs-projects
+              - img [ref=e37]
+              - generic [ref=e40]: Projects
+            - link "Deployments" [ref=e41] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/deployments
+              - img [ref=e43]
+              - generic [ref=e46]: Deployments
+            - link "Logs" [ref=e47] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/logs
+              - img [ref=e49]
+              - generic [ref=e52]: Logs
+            - link "Analytics" [ref=e53] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/analytics
+              - img [ref=e55]
+              - generic [ref=e58]: Analytics
+            - link "Speed Insights" [ref=e59] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/speed-insights
+              - img [ref=e61]
+              - generic [ref=e64]: Speed Insights
+            - link "Observability" [ref=e65] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/observability
+              - img [ref=e67]
+              - generic [ref=e70]: Observability
+              - img [ref=e72]
+            - link "Firewall" [ref=e74] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/firewall
+              - img [ref=e76]
+              - generic [ref=e80]: Firewall
+            - link "CDN" [ref=e81] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/cdn
+              - img [ref=e83]
+              - generic [ref=e86]: CDN
+            - separator [ref=e87]
+            - link "Domains" [ref=e88] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/domains
+              - img [ref=e90]
+              - generic [ref=e93]: Domains
+            - link "Integrations" [ref=e94] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/integrations
+              - img [ref=e96]
+              - generic [ref=e99]: Integrations
+            - link "Storage" [ref=e100] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/stores
+              - img [ref=e102]
+              - generic [ref=e105]: Storage
+            - link "Flags" [ref=e106] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/experimentation/collections
+              - img [ref=e108]
+              - generic [ref=e111]: Flags
+            - link "Agent" [ref=e112] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/agent
+              - img [ref=e114]
+              - generic [ref=e117]: Agent
+              - img [ref=e119]
+            - link "AI Gateway" [ref=e121] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/ai-gateway
+              - img [ref=e123]
+              - generic [ref=e126]: AI Gateway
+              - img [ref=e128]
+            - link "Sandboxes" [ref=e130] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/sandboxes
+              - img [ref=e132]
+              - generic [ref=e135]: Sandboxes
+            - separator [ref=e136]
+            - link "Usage" [ref=e137] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/usage
+              - img [ref=e139]
+              - generic [ref=e142]: Usage
+            - link "Support" [ref=e143] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/support
+              - img [ref=e145]
+              - generic [ref=e148]: Support
+            - link "Settings" [ref=e149] [cursor=pointer]:
+              - /url: /hooperalexs-projects/~/settings
+              - img [ref=e151]
+              - generic [ref=e154]: Settings
+              - img [ref=e156]
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e162]: Action Required
+              - img [ref=e165]
+            - generic [ref=e167]:
+              - generic [ref=e168]: Take action to secure your projects from critical vulnerabilities.
+              - link "Update Projects" [ref=e170] [cursor=pointer]:
+                - /url: /hooperalexs-projects/~/fixes
+                - generic [ref=e171]: Update Projects
+          - generic [ref=e173]:
+            - button "Avatar for hooperalex hooperalex" [ref=e174] [cursor=pointer]:
+              - img "Avatar for hooperalex" [ref=e175]:
+                - img "Avatar for hooperalex" [ref=e176]
+              - generic [ref=e178]: hooperalex
+              - img [ref=e180]
+            - button "199 unseen notifications" [ref=e765] [cursor=pointer]:
+              - generic [ref=e185]:
+                - generic [ref=e186]:
+                  - img
+                - img [ref=e763]
+      - button [ref=e188] [cursor=pointer]:
+        - img [ref=e189]
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - button "All projects" [ref=e197] [cursor=pointer]:
+          - generic [ref=e198]: All projects
+          - img [ref=e200]
+        - generic [ref=e203]: Overview
+        - button "Open page actions menu" [ref=e205] [cursor=pointer]:
+          - img [ref=e207]
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - searchbox "Search" [ref=e216]
+            - img [ref=e218]
+          - button "Filter and Sort Projects" [ref=e220] [cursor=pointer]:
+            - img [ref=e222]
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - radio "grid" [checked] [ref=e226]
+              - generic [ref=e227] [cursor=pointer]:
+                - img [ref=e228]
+                - generic [ref=e230]: grid
+            - generic [ref=e231]:
+              - radio "list" [ref=e232]
+              - generic [ref=e233] [cursor=pointer]:
+                - img [ref=e234]
+                - generic [ref=e236]: list
+          - button "Add New..." [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: Add New...
+            - img [ref=e240]
+        - generic [ref=e242]:
+          - generic [ref=e245]:
+            - generic [ref=e766]:
+              - link "Usage" [ref=e768] [cursor=pointer]:
+                - /url: /hooperalexs-projects/~/usage
+              - generic [ref=e769]:
+                - generic [ref=e770]:
+                  - link "20 days remaining in cycle" [ref=e772] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/~/usage
+                  - link "Billing" [ref=e774] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/~/settings/billing
+                    - generic [ref=e775]: Billing
+                - generic [ref=e776]:
+                  - generic [ref=e778]:
+                    - generic [ref=e779]:
+                      - generic [ref=e780]: Included Credit
+                      - generic [ref=e781]: $1.31 / $20
+                    - generic [ref=e782]:
+                      - generic [ref=e783]: On-Demand Charges
+                      - generic [ref=e784]: $0
+                  - link "Spend Management On" [ref=e788] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/~/settings/billing#spend-management
+                    - generic [ref=e789]: Spend Management
+                    - generic [ref=e790]:
+                      - text: "On"
+                      - img [ref=e791]
+                  - list [ref=e794]:
+                    - listitem [ref=e795]:
+                      - link "Edge Middleware Invocations $0.65" [ref=e796] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/~/usage/edge-middleware-invocations
+                        - generic [ref=e797]:
+                          - generic [ref=e798]: Edge Middleware Invocations
+                          - img [ref=e801]
+                        - generic [ref=e804]: $0.65
+                    - listitem [ref=e805]:
+                      - link "Function Invocations $0.60" [ref=e806] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/~/usage/vercel-functions-invocations
+                        - generic [ref=e807]:
+                          - generic [ref=e808]: Function Invocations
+                          - img [ref=e811]
+                        - generic [ref=e814]: $0.60
+                    - listitem [ref=e815]:
+                      - link "Fluid Active CPU $0.04" [ref=e816] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/~/usage/vercel-functions-fluid-cpu-duration
+                        - generic [ref=e817]:
+                          - generic [ref=e818]: Fluid Active CPU
+                          - img [ref=e821]
+                        - generic [ref=e824]: $0.04
+                    - listitem [ref=e825]:
+                      - link "Fluid Provisioned Memory $0.01" [ref=e826] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/~/usage/vercel-functions-fluid-duration
+                        - generic [ref=e827]:
+                          - generic [ref=e828]: Fluid Provisioned Memory
+                          - img [ref=e831]
+                        - generic [ref=e834]: $0.01
+                    - listitem [ref=e835]:
+                      - link "Function Duration $0.01" [ref=e836] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/~/usage/vercel-functions-duration
+                        - generic [ref=e837]:
+                          - generic [ref=e838]: Function Duration
+                          - img [ref=e841]
+                        - generic [ref=e844]: $0.01
+              - button "Show More Usage" [ref=e845] [cursor=pointer]:
+                - img [ref=e847]
+            - generic [ref=e272]:
+              - link "Alerts" [ref=e274] [cursor=pointer]:
+                - /url: /hooperalexs-projects/~/observability/alerts
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281]: Get alerted for anomalies
+                  - generic [ref=e282]: Automatically monitor your projects for anomalies and get notified.
+                - button "Upgrade to Observability Plus" [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]: Upgrade to Observability Plus
+            - generic [ref=e285]:
+              - generic [ref=e287]: Recent Previews
+              - list [ref=e288]:
+                - generic [ref=e290]:
+                  - img [ref=e292]
+                  - generic [ref=e295]: Preview deployments that you have recently visited or created will appear here.
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - generic [ref=e299]: Projects
+              - list [ref=e300]:
+                - listitem [ref=e301]:
+                  - link [ref=e302] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/youtubetile
+                  - generic [ref=e303]:
+                    - link [ref=e304] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/youtubetile
+                      - img [ref=e306]
+                    - generic [ref=e307]:
+                      - link "youtubetile" [ref=e308] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/youtubetile
+                      - link "youtubetile.vercel.app" [ref=e309] [cursor=pointer]:
+                        - /url: https://youtubetile.vercel.app
+                    - link "0" [ref=e310] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/youtubetile#production-checklist
+                      - progressbar [ref=e312]:
+                        - img [ref=e313]
+                        - img [ref=e318]
+                    - button "Project Menu" [ref=e320] [cursor=pointer]:
+                      - img [ref=e322]
+                  - generic [ref=e324]:
+                    - link "Connect Git Repository" [ref=e325] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/youtubetile/settings/git
+                    - generic [ref=e329] [cursor=pointer]: 2m ago
+                - listitem [ref=e330]:
+                  - link [ref=e331] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/imem-web
+                  - generic [ref=e332]:
+                    - link [ref=e333] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/imem-web
+                      - img [ref=e335]
+                    - generic [ref=e336]:
+                      - link "imem-web" [ref=e337] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/imem-web
+                      - link "imem-web.vercel.app" [ref=e338] [cursor=pointer]:
+                        - /url: https://imem-web.vercel.app
+                    - link "0" [ref=e339] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/imem-web#production-checklist
+                      - progressbar [ref=e341]:
+                        - img [ref=e342]
+                        - img [ref=e347]
+                    - button "Project Menu" [ref=e349] [cursor=pointer]:
+                      - img [ref=e351]
+                  - generic [ref=e353]:
+                    - link "Connect Git Repository" [ref=e354] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/imem-web/settings/git
+                    - generic [ref=e358] [cursor=pointer]: 10h ago
+                - listitem [ref=e359]:
+                  - link [ref=e360] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/theai-institite
+                  - generic [ref=e361]:
+                    - link [ref=e362] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/theai-institite
+                      - img [ref=e364]
+                    - generic [ref=e365]:
+                      - link "theai- ins titite" [ref=e366] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/theai-institite
+                        - generic [ref=e367]:
+                          - generic [ref=e368]: theai-
+                          - generic [ref=e369]: ins
+                          - generic [ref=e370]: titite
+                      - link "theai-institite.vercel.app" [ref=e371] [cursor=pointer]:
+                        - /url: https://theai-institite.vercel.app
+                    - link "0" [ref=e372] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/theai-institite#production-checklist
+                      - progressbar [ref=e374]:
+                        - img [ref=e375]
+                        - img [ref=e380]
+                    - button "Project Menu" [ref=e382] [cursor=pointer]:
+                      - img [ref=e384]
+                  - generic [ref=e386]:
+                    - link "Connect Git Repository" [ref=e387] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/theai-institite/settings/git
+                    - generic [ref=e391] [cursor=pointer]: Mar 25
+                - listitem [ref=e392]:
+                  - link [ref=e393] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/podchat
+                  - generic [ref=e394]:
+                    - link [ref=e395] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/podchat
+                      - img [ref=e397]
+                    - generic [ref=e398]:
+                      - link "podchat" [ref=e399] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/podchat
+                      - link "www.podify.chat" [ref=e400] [cursor=pointer]:
+                        - /url: https://www.podify.chat
+                    - link "0" [ref=e401] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/podchat/speed-insights
+                      - progressbar [ref=e403]:
+                        - img [ref=e404]
+                        - img [ref=e409]
+                    - button "Project Menu" [ref=e411] [cursor=pointer]:
+                      - img [ref=e413]
+                  - link "github hooperalex/podify.chat" [ref=e416] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/podify.chat
+                    - img "github" [ref=e417]
+                    - generic [ref=e419]: hooperalex/podify.chat
+                  - generic [ref=e420]:
+                    - 'link "Fix 4 issues: focus, citations, search, transcription" [ref=e421] [cursor=pointer]':
+                      - /url: /hooperalexs-projects/podchat/DqsyRnuZHtTkK9VkoKJ9SMKEHNye
+                    - generic [ref=e422]:
+                      - generic [ref=e423]:
+                        - generic [ref=e425] [cursor=pointer]: Jan 2
+                        - text: "on"
+                      - img [ref=e426]
+                      - link "main" [ref=e428] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/podchat/deployments?filterBranch=main
+                - listitem [ref=e429]:
+                  - link [ref=e430] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/bimbo
+                  - generic [ref=e431]:
+                    - link [ref=e432] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/bimbo
+                      - img [ref=e434]
+                    - generic [ref=e435]:
+                      - link "bimbo" [ref=e436] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/bimbo
+                      - link "mybimbo.co" [ref=e437] [cursor=pointer]:
+                        - /url: https://mybimbo.co
+                    - link "0" [ref=e438] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/bimbo/speed-insights
+                      - progressbar [ref=e440]:
+                        - img [ref=e441]
+                        - img [ref=e446]
+                    - button "Project Menu" [ref=e448] [cursor=pointer]:
+                      - img [ref=e450]
+                  - link "github hooperalex/bimbo" [ref=e453] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/bimbo
+                    - img "github" [ref=e454]
+                    - generic [ref=e456]: hooperalex/bimbo
+                  - generic [ref=e457]:
+                    - link "Retry deployment - Railway snapshot issue" [ref=e458] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/bimbo/AFGuYG2ZDXdAtL544TYrZaiUVDfc
+                    - generic [ref=e459]:
+                      - generic [ref=e460]:
+                        - generic [ref=e462] [cursor=pointer]: Jan 5
+                        - text: "on"
+                      - img [ref=e463]
+                      - link "main" [ref=e465] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/bimbo/deployments?filterBranch=main
+                - listitem [ref=e466]:
+                  - link [ref=e467] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/sev1
+                  - generic [ref=e468]:
+                    - link [ref=e469] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/sev1
+                      - img [ref=e471]
+                    - generic [ref=e472]:
+                      - link "sev1" [ref=e473] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/sev1
+                      - link "sev1.vercel.app" [ref=e474] [cursor=pointer]:
+                        - /url: https://sev1.vercel.app
+                    - link "0" [ref=e475] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/sev1/speed-insights
+                      - progressbar [ref=e477]:
+                        - img [ref=e478]
+                        - img [ref=e483]
+                    - button "Project Menu" [ref=e485] [cursor=pointer]:
+                      - img [ref=e487]
+                  - link "github hooperalex/sev1" [ref=e490] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/sev1
+                    - img "github" [ref=e491]
+                    - generic [ref=e493]: hooperalex/sev1
+                  - generic [ref=e494]:
+                    - link "Add checkpoint/resume and early validation to prevent token waste" [ref=e495] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/sev1/7Da8ZZkz9Y8LkrqKJAGtLdvrQwyy
+                    - generic [ref=e496]:
+                      - generic [ref=e497]:
+                        - generic [ref=e499] [cursor=pointer]: 12/15/25
+                        - text: "on"
+                      - img [ref=e500]
+                      - link "main" [ref=e502] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/sev1/deployments?filterBranch=main
+                - listitem [ref=e503]:
+                  - link [ref=e504] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/ai-readiness-dashboard
+                  - generic [ref=e505]:
+                    - link [ref=e506] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/ai-readiness-dashboard
+                      - img [ref=e508]
+                    - generic [ref=e509]:
+                      - link "ai-rea diness-das hboard" [ref=e510] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/ai-readiness-dashboard
+                        - generic [ref=e511]:
+                          - generic [ref=e512]: ai-rea
+                          - generic [ref=e513]: diness-das
+                          - generic [ref=e514]: hboard
+                      - link "readyness.theai.institute" [ref=e515] [cursor=pointer]:
+                        - /url: https://readyness.theai.institute
+                    - link "0" [ref=e516] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/ai-readiness-dashboard/speed-insights
+                      - progressbar [ref=e518]:
+                        - img [ref=e519]
+                        - img [ref=e524]
+                    - button "Project Menu" [ref=e526] [cursor=pointer]:
+                      - img [ref=e528]
+                  - link "github hooperalex/ai-readiness-dashboard" [ref=e531] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/ai-readiness-dashboard
+                    - img "github" [ref=e532]
+                    - generic [ref=e534]: hooperalex/ai-readiness-dashboard
+                  - generic [ref=e535]:
+                    - 'link "fix: secure OpenAI API key - use server-side ephemeral tokens" [ref=e536] [cursor=pointer]':
+                      - /url: /hooperalexs-projects/ai-readiness-dashboard/Ffk8c4f7C1fZALrxK1PnQFQPb16K
+                    - generic [ref=e537]:
+                      - generic [ref=e538]:
+                        - generic [ref=e540] [cursor=pointer]: 12/10/25
+                        - text: "on"
+                      - img [ref=e541]
+                      - link "main" [ref=e543] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/ai-readiness-dashboard/deployments?filterBranch=main
+                - listitem [ref=e544]:
+                  - link [ref=e545] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/v0-new-project-zei2bk8qqyn
+                  - generic [ref=e546]:
+                    - link [ref=e547] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/v0-new-project-zei2bk8qqyn
+                      - img [ref=e549]
+                    - generic [ref=e550]:
+                      - link "v0-new -project-zei2b k8qqyn" [ref=e551] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/v0-new-project-zei2bk8qqyn
+                        - generic [ref=e552]:
+                          - generic [ref=e553]: v0-new
+                          - generic [ref=e554]: "-project-zei2b"
+                          - generic [ref=e555]: k8qqyn
+                      - link "v0-new-project-zei2bk8qqyn.vercel.app" [ref=e556] [cursor=pointer]:
+                        - /url: https://v0-new-project-zei2bk8qqyn.vercel.app
+                    - link "0" [ref=e557] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/v0-new-project-zei2bk8qqyn/speed-insights
+                      - progressbar [ref=e559]:
+                        - img [ref=e560]
+                        - img [ref=e565]
+                    - button "Project Menu" [ref=e567] [cursor=pointer]:
+                      - img [ref=e569]
+                  - generic [ref=e576] [cursor=pointer]: Jan 1
+                - listitem [ref=e577]:
+                  - link [ref=e578] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/mindya-pet
+                  - generic [ref=e579]:
+                    - link [ref=e580] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/mindya-pet
+                      - img [ref=e582]
+                    - generic [ref=e583]:
+                      - link "mindya-pet" [ref=e584] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/mindya-pet
+                      - link "mindya-pet.vercel.app" [ref=e585] [cursor=pointer]:
+                        - /url: https://mindya-pet.vercel.app
+                    - link "0" [ref=e586] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/mindya-pet/speed-insights
+                      - progressbar [ref=e588]:
+                        - img [ref=e589]
+                        - img [ref=e594]
+                    - button "Project Menu" [ref=e596] [cursor=pointer]:
+                      - img [ref=e598]
+                  - link "github hooperalex/mindya-pet" [ref=e601] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/mindya-pet
+                    - img "github" [ref=e602]
+                    - generic [ref=e604]: hooperalex/mindya-pet
+                  - generic [ref=e605]:
+                    - 'link "Merge pull request #2 from hooperalex/add-claude-github-actions-1759378043861" [ref=e606] [cursor=pointer]':
+                      - /url: /hooperalexs-projects/mindya-pet/ENpWrBRcQjCAnhGCH3xGgTJYgDy8
+                    - generic [ref=e607]:
+                      - generic [ref=e608]:
+                        - generic [ref=e610] [cursor=pointer]: 10/2/25
+                        - text: "on"
+                      - img [ref=e611]
+                      - link "main" [ref=e613] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/mindya-pet/deployments?filterBranch=main
+                - listitem [ref=e614]:
+                  - link [ref=e615] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/letta
+                  - generic [ref=e616]:
+                    - link [ref=e617] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/letta
+                      - img [ref=e619]
+                    - generic [ref=e620]:
+                      - link "letta" [ref=e621] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/letta
+                      - link "letta-black.vercel.app" [ref=e622] [cursor=pointer]:
+                        - /url: https://letta-black.vercel.app
+                    - link "0" [ref=e623] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/letta/speed-insights
+                      - progressbar [ref=e625]:
+                        - img [ref=e626]
+                        - img [ref=e631]
+                    - button "Project Menu" [ref=e633] [cursor=pointer]:
+                      - img [ref=e635]
+                  - link "github hooperalex/letta" [ref=e638] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/letta
+                    - img "github" [ref=e639]
+                    - generic [ref=e641]: hooperalex/letta
+                  - generic [ref=e642]:
+                    - link "Initial commit" [ref=e643] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/letta/F3sZH8jpjnajLZyU17TgxSZwh1GV
+                    - generic [ref=e644]:
+                      - generic [ref=e645]:
+                        - generic [ref=e647] [cursor=pointer]: 8/29/25
+                        - text: "on"
+                      - img [ref=e648]
+                      - link "main" [ref=e650] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/letta/deployments?filterBranch=main
+                - listitem [ref=e651]:
+                  - link [ref=e652] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/thefomo-live
+                  - generic [ref=e653]:
+                    - link [ref=e654] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/thefomo-live
+                      - img [ref=e656]
+                    - generic [ref=e657]:
+                      - link "thefomo-live" [ref=e658] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/thefomo-live
+                      - link "thefomo.live" [ref=e659] [cursor=pointer]:
+                        - /url: https://thefomo.live
+                    - link "0" [ref=e660] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/thefomo-live/speed-insights
+                      - progressbar [ref=e662]:
+                        - img [ref=e663]
+                        - img [ref=e668]
+                    - button "Project Menu" [ref=e670] [cursor=pointer]:
+                      - img [ref=e672]
+                  - link "github hooperalex/thefomo_live" [ref=e675] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/thefomo_live
+                    - img "github" [ref=e676]
+                    - generic [ref=e678]: hooperalex/thefomo_live
+                  - generic [ref=e679]:
+                    - generic [ref=e680]: No Production Deployment
+                    - generic [ref=e684] [cursor=pointer]: 3/21/25
+                - listitem [ref=e685]:
+                  - link [ref=e686] [cursor=pointer]:
+                    - /url: /hooperalexs-projects/coder
+                  - generic [ref=e687]:
+                    - link [ref=e688] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/coder
+                      - img [ref=e690]
+                    - generic [ref=e691]:
+                      - link "coder" [ref=e692] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/coder
+                      - link "coder-lime.vercel.app" [ref=e693] [cursor=pointer]:
+                        - /url: https://coder-lime.vercel.app
+                    - link "0" [ref=e694] [cursor=pointer]:
+                      - /url: /hooperalexs-projects/coder/speed-insights
+                      - progressbar [ref=e696]:
+                        - img [ref=e697]
+                        - img [ref=e702]
+                    - button "Project Menu" [ref=e704] [cursor=pointer]:
+                      - img [ref=e706]
+                  - link "github hooperalex/coder" [ref=e709] [cursor=pointer]:
+                    - /url: /hooperalexs-projects?repo=https://github.com/hooperalex/coder
+                    - img "github" [ref=e710]
+                    - generic [ref=e712]: hooperalex/coder
+                  - generic [ref=e713]:
+                    - 'link "Add solution for issue #24" [ref=e714] [cursor=pointer]':
+                      - /url: /hooperalexs-projects/coder/EYBFfUPp8rcTjmX4SugdVhNdTkyP
+                    - generic [ref=e715]:
+                      - generic [ref=e716]:
+                        - generic [ref=e718] [cursor=pointer]: 6/26/25
+                        - text: "on"
+                      - img [ref=e719]
+                      - link "main" [ref=e721] [cursor=pointer]:
+                        - /url: /hooperalexs-projects/coder/deployments?filterBranch=main
+            - button "Show More" [ref=e723] [cursor=pointer]:
+              - generic [ref=e724]: Show More
+  - alert [ref=e725]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - status [ref=e849]:
+    - generic [ref=e851]:
+      - generic [ref=e852]: "success:"
+      - generic [ref=e853]: You have opted out.
+      - button "Dismiss toast" [ref=e855] [cursor=pointer]:
+        - img [ref=e857]

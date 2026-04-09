@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: imem-mcp-server
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: |
+      # Install Python and pip
+      apt-get update && apt-get install -y python3 python3-pip python3-venv
+
+      # Install Node dependencies
+      npm install
+      npm run build
+
+      # Install MemPalace
+      pip3 install mempalace
+
+      # Initialize MemPalace if not exists
+      if [ ! -d "/opt/render/project/src/palace" ]; then
+        mempalace init /opt/render/project/src/palace
+      fi
+    startCommand: npm run http
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MEMPALACE_PALACE_PATH
+        value: /opt/render/project/src/palace
+    disk:
+      name: palace-storage
+      mountPath: /opt/render/project/src/palace
+      sizeGB: 1

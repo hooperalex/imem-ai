@@ -1,0 +1,47 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "imem.ai" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e8]: imem.ai
+          - generic [ref=e9]:
+            - generic [ref=e10]:
+              - img [ref=e11]
+              - textbox "Search your memories..." [ref=e14]
+            - button [ref=e15]:
+              - img [ref=e16]
+        - generic [ref=e19]:
+          - button "Team" [ref=e20]
+          - generic [ref=e21]: A
+    - complementary [ref=e22]:
+      - navigation [ref=e23]:
+        - link "Search" [ref=e24] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e25]
+        - link "Chat" [ref=e28] [cursor=pointer]:
+          - /url: /dashboard/chat
+          - img [ref=e29]
+        - link "Import" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard/import
+          - img [ref=e32]
+        - link "Analytics" [ref=e35] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e36]
+        - link "Settings" [ref=e38] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e39]
+    - main [ref=e42]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Ask your memories" [level=1] [ref=e79]
+          - paragraph [ref=e80]: Natural language search across all your conversations
+        - paragraph [ref=e84]: Hi! Ask me anything about your memories. I can help you find conversations, decisions, or insights.
+        - generic [ref=e85]:
+          - textbox "What did we decide about..." [ref=e86]: test query to verify MCP connection
+          - button [active] [ref=e87]:
+            - img [ref=e88]
+          - button [ref=e91]:
+            - img [ref=e92]
+  - alert [ref=e76]

@@ -1,0 +1,118 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link [disabled] [ref=e10]
+            - button [ref=e14] [cursor=pointer]:
+              - img [ref=e16]
+          - button "Find… F" [ref=e19]:
+            - generic [ref=e21]:
+              - img [ref=e23]
+              - generic [ref=e25]: Find…
+              - generic [ref=e27]: F
+        - navigation [ref=e29]:
+          - generic [ref=e32]:
+            - link "Projects" [ref=e33] [cursor=pointer]:
+              - /url: "#intent:sidebar:projects"
+              - img [ref=e35]
+              - generic [ref=e38]: Projects
+            - link "Deployments" [ref=e39] [cursor=pointer]:
+              - /url: "#intent:sidebar:deployments"
+              - img [ref=e41]
+              - generic [ref=e44]: Deployments
+            - link "Logs" [ref=e45] [cursor=pointer]:
+              - /url: "#intent:sidebar:logs"
+              - img [ref=e47]
+              - generic [ref=e50]: Logs
+            - link "Analytics" [ref=e51] [cursor=pointer]:
+              - /url: "#intent:sidebar:analytics"
+              - img [ref=e53]
+              - generic [ref=e56]: Analytics
+            - link "Speed Insights" [ref=e57] [cursor=pointer]:
+              - /url: "#intent:sidebar:speed-insights"
+              - img [ref=e59]
+              - generic [ref=e62]: Speed Insights
+            - link "Observability" [ref=e63] [cursor=pointer]:
+              - /url: "#intent:sidebar:observability"
+              - img [ref=e65]
+              - generic [ref=e68]: Observability
+              - img [ref=e70]
+            - link "Firewall" [ref=e72] [cursor=pointer]:
+              - /url: "#intent:sidebar:firewall"
+              - img [ref=e74]
+              - generic [ref=e78]: Firewall
+            - link "CDN" [ref=e79] [cursor=pointer]:
+              - /url: "#intent:sidebar:cdn"
+              - img [ref=e81]
+              - generic [ref=e84]: CDN
+            - separator [ref=e85]
+            - link "Domains" [ref=e86] [cursor=pointer]:
+              - /url: "#intent:sidebar:domains"
+              - img [ref=e88]
+              - generic [ref=e91]: Domains
+            - link "Integrations" [ref=e92] [cursor=pointer]:
+              - /url: "#intent:sidebar:integrations"
+              - img [ref=e94]
+              - generic [ref=e97]: Integrations
+            - link "Storage" [ref=e98] [cursor=pointer]:
+              - /url: "#intent:sidebar:storage"
+              - img [ref=e100]
+              - generic [ref=e103]: Storage
+            - link "Flags" [ref=e104] [cursor=pointer]:
+              - /url: "#intent:sidebar:flags"
+              - img [ref=e106]
+              - generic [ref=e109]: Flags
+            - link "Agent" [ref=e110] [cursor=pointer]:
+              - /url: "#intent:sidebar:agent"
+              - img [ref=e112]
+              - generic [ref=e115]: Agent
+              - img [ref=e117]
+            - link "AI Gateway" [ref=e119] [cursor=pointer]:
+              - /url: "#intent:sidebar:ai-gateway"
+              - img [ref=e121]
+              - generic [ref=e124]: AI Gateway
+              - img [ref=e126]
+            - link "Sandboxes" [ref=e128] [cursor=pointer]:
+              - /url: "#intent:sidebar:sandboxes"
+              - img [ref=e130]
+              - generic [ref=e133]: Sandboxes
+            - separator [ref=e134]
+            - link "Usage" [ref=e135] [cursor=pointer]:
+              - /url: "#intent:sidebar:usage"
+              - img [ref=e137]
+              - generic [ref=e140]: Usage
+            - link "Support" [ref=e141] [cursor=pointer]:
+              - /url: "#intent:sidebar:support"
+              - img [ref=e143]
+              - generic [ref=e146]: Support
+            - link "Settings" [ref=e147] [cursor=pointer]:
+              - /url: "#intent:sidebar:settings"
+              - img [ref=e149]
+              - generic [ref=e152]: Settings
+              - img [ref=e154]
+        - generic [ref=e158]:
+          - button "Avatar for hooperalex hooperalex" [disabled]:
+            - img "Avatar for hooperalex":
+              - img "Avatar for hooperalex"
+            - generic:
+              - generic: hooperalex
+            - generic:
+              - img
+          - img [ref=e161]
+      - button [ref=e164] [cursor=pointer]:
+        - img [ref=e165]
+    - generic [ref=e169]:
+      - generic [ref=e172]:
+        - link "imem-web" [disabled] [ref=e173]:
+          - generic [ref=e176]: imem-web
+        - button [ref=e177] [cursor=pointer]:
+          - img [ref=e179]
+        - link "Back to team view" [disabled] [ref=e183] [cursor=pointer]:
+          - img [ref=e185]
+      - generic [ref=e188]: Deployments
+      - button "Open page actions menu" [ref=e190] [cursor=pointer]:
+        - img [ref=e192]

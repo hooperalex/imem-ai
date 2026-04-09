@@ -1,0 +1,58 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "imem.ai" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e8]: imem.ai
+          - generic [ref=e9]:
+            - generic [ref=e10]:
+              - img [ref=e11]
+              - textbox "Search your memories..." [ref=e14]
+            - button [ref=e15]:
+              - img [ref=e16]
+        - generic [ref=e19]:
+          - button "Team" [ref=e20]
+          - generic [ref=e21]: A
+    - complementary [ref=e22]:
+      - navigation [ref=e23]:
+        - link "Search" [ref=e24] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e25]
+        - link "Chat" [ref=e28] [cursor=pointer]:
+          - /url: /dashboard/chat
+          - img [ref=e29]
+        - link "Import" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard/import
+          - img [ref=e32]
+        - link "Analytics" [ref=e35] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e36]
+        - link "Settings" [ref=e38] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e39]
+    - main [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Import Conversations" [level=1] [ref=e46]
+          - paragraph [ref=e47]: Upload your Claude, ChatGPT, or Gemini conversation exports
+        - generic [ref=e48]:
+          - img [ref=e49]
+          - heading "Drag files here or click to browse" [level=3] [ref=e52]
+          - paragraph [ref=e53]: "Supports: Claude exports, ChatGPT exports, Gemini exports"
+          - button "Choose Files" [ref=e54]
+        - generic [ref=e55]:
+          - heading "Recent Imports" [level=3] [ref=e56]
+          - generic [ref=e57]:
+            - generic [ref=e60]:
+              - img [ref=e61]
+              - generic [ref=e64]:
+                - generic [ref=e65]: claude_export.json
+                - generic [ref=e66]: 142 conversations • 2 hours ago
+            - generic [ref=e69]:
+              - img [ref=e70]
+              - generic [ref=e73]:
+                - generic [ref=e74]: chatgpt_data.json
+                - generic [ref=e75]: 89 conversations • Yesterday
+  - alert [ref=e76]

@@ -16,14 +16,34 @@ app.use(express.json({ limit: '50mb' }));
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY || '',
 });
-// MemPalace CLI wrapper
+const PALACE_PATH = process.env.MEMPALACE_PALACE_PATH || '/app/palace';
+// MemPalace CLI wrapper with palace path
 async function mempalaceCommand(cmd) {
     try {
-        const { stdout } = await execAsync(`mempalace ${cmd}`);
+        const fullCmd = `mempalace --palace "${PALACE_PATH}" ${cmd}`;
+        console.log(`Executing: ${fullCmd}`);
+        const { stdout, stderr } = await execAsync(fullCmd);
+        if (stderr)
+            console.error('MemPalace stderr:', stderr);
         return stdout.trim();
     }
     catch (error) {
+        console.error('MemPalace command failed:', error);
         throw new Error(`MemPalace error: ${error.message}`);
+    }
+}
+// Initialize palace if needed
+async function ensurePalaceInitialized() {
+    try {
+        const fs = await import('fs');
+        if (!fs.existsSync(PALACE_PATH)) {
+            console.log(`Initializing MemPalace at ${PALACE_PATH}...`);
+            await execAsync(`mempalace init "${PALACE_PATH}"`);
+            console.log('✓ Palace initialized');
+        }
+    }
+    catch (error) {
+        console.warn('Palace initialization warning:', error.message);
     }
 }
 // POST /api/search
@@ -154,9 +174,14 @@ function parseStats(output) {
     };
 }
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-    console.log(`🚀 imem.ai MCP HTTP Bridge running on port ${PORT}`);
-    console.log(`   Search: POST http://localhost:${PORT}/api/search`);
-    console.log(`   Import: POST http://localhost:${PORT}/api/import`);
-    console.log(`   Voice:  POST http://localhost:${PORT}/api/voice-query`);
-});
+// Initialize palace and start server
+(async () => {
+    await ensurePalaceInitialized();
+    app.listen(PORT, () => {
+        console.log(`🚀 imem.ai MCP HTTP Bridge running on port ${PORT}`);
+        console.log(`   Palace: ${PALACE_PATH}`);
+        console.log(`   Search: POST http://localhost:${PORT}/api/search`);
+        console.log(`   Import: POST http://localhost:${PORT}/api/import`);
+        console.log(`   Voice:  POST http://localhost:${PORT}/api/voice-query`);
+    });
+})();

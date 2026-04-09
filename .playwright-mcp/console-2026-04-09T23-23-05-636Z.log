@@ -1,0 +1,2 @@
+[   11243ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://imem-web.vercel.app/signup:0
+[   30763ms] [LOG] Account created: {success: true, userId: claudetest-mns3scb8, endpoint: https://demo-mempalace.imem.ai/claudetest-mns3scb8, message: Account created! Your MemPalace is ready.} @ https://imem-web.vercel.app/_next/static/chunks/12fb_csigy2fz.js?dpl=dpl_B6sf1AEaKBPsmDNeVkHWXEGDbqSX:0

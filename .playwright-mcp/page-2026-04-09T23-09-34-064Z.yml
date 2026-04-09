@@ -1,0 +1,414 @@
+- generic:
+  - link:
+    - /url: "#geist-skip-nav"
+    - text: Skip to content
+  - generic:
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /hooperalexs-projects
+                    - img
+                    - generic:
+                      - generic: hooperalex's projects
+                      - generic:
+                        - generic: Pro
+                  - button:
+                    - generic:
+                      - img
+            - button [ref=e325]:
+              - generic [ref=e23]:
+                - img [ref=e25]
+                - generic [ref=e27]: Find…
+                - generic [ref=e29]: F
+          - generic:
+            - navigation:
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web
+                      - generic:
+                        - img:
+                          - img
+                      - generic:
+                        - generic: Overview
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/deployments
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Deployments
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/logs
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Logs
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/analytics
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Analytics
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/speed-insights
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Speed Insights
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/observability
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Observability
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/firewall
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Firewall
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/cdn
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: CDN
+                      - generic:
+                        - img
+                    - separator
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/domains
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Domains
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/integrations
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Integrations
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/stores
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Storage
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/flags
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Flags
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/agent
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Agent
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/ai-gateway
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: AI Gateway
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/sandboxes
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Sandboxes
+                    - separator
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/usage
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Usage
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/support
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Support
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Settings
+                      - generic:
+                        - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - img
+                      - generic: Settings
+                  - generic:
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/general?create=true
+                      - generic:
+                        - generic: General
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/build-and-deployment?create=true
+                      - generic:
+                        - generic: Build and Deployment
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/environments?create=true
+                      - generic:
+                        - generic: Environments
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/environment-variables?create=true
+                      - generic:
+                        - generic: Environment Variables
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/git?create=true
+                      - generic:
+                        - generic: Git
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/deployment-protection?create=true
+                      - generic:
+                        - generic: Deployment Protection
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/functions?create=true
+                      - generic:
+                        - generic: Functions
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/cron-jobs?create=true
+                      - generic:
+                        - generic: Cron Jobs
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/microfrontends?create=true
+                      - generic:
+                        - generic: Microfrontends
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/project-members?create=true
+                      - generic:
+                        - generic: Project Members
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/webhooks?create=true
+                      - generic:
+                        - generic: Webhooks
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/drains?create=true
+                      - generic:
+                        - generic: Drains
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/security?create=true
+                      - generic:
+                        - generic: Security
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/connectivity?create=true
+                      - generic:
+                        - generic: Connectivity
+                    - link:
+                      - /url: /hooperalexs-projects/imem-web/settings/advanced?create=true
+                      - generic:
+                        - generic: Advanced
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Ship
+                      - generic:
+                        - generic: "26"
+                - button:
+                  - generic:
+                    - img
+              - generic:
+                - generic: Built for you to ship what’s next.
+                - generic:
+                  - link:
+                    - /url: /ship
+                    - generic:
+                      - text: Save the date
+                      - img
+            - generic:
+              - generic:
+                - button:
+                  - img:
+                    - img
+                  - generic:
+                    - generic: hooperalex
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                        - img
+        - button:
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /hooperalexs-projects/imem-web
+                    - img:
+                      - img
+                    - generic:
+                      - generic: imem-web
+                  - button:
+                    - generic:
+                      - img
+                  - generic:
+                    - link:
+                      - /url: /hooperalexs-projects/~/settings/environment-variables
+                      - generic:
+                        - img
+            - generic:
+              - generic:
+                - link:
+                  - /url: /hooperalexs-projects/imem-web/settings
+                  - text: Project Settings
+                - img
+              - generic: Environment Variables
+            - generic:
+              - button:
+                - generic:
+                  - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=2]: Environment Variables
+                                - paragraph:
+                                  - text: Store API keys, tokens, and config securely.
+                                  - link:
+                                    - /url: /docs/environment-variables
+                                    - text: Learn more
+                                    - img
+                              - generic:
+                                - button:
+                                  - generic: Link Shared Variable
+                                - button:
+                                  - generic: Add Environment Variable
+                          - tablist:
+                            - tab [selected]: Project
+                            - tab: Shared
+                          - generic:
+                            - generic:
+                              - generic:
+                                - searchbox
+                                - generic:
+                                  - img
+                            - generic:
+                              - combobox:
+                                - generic:
+                                  - generic:
+                                    - searchbox: All Environments
+                                    - button:
+                                      - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                                  - combobox
+                                  - generic:
+                                    - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: No Environment Variables Added
+                                  - generic: Add Environment Variables to Production, Preview, and Development environments, including branches in Preview.
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - checkbox [checked]
+                                      - generic:
+                                        - img
+                                  - generic:
+                                    - text: Automatically expose
+                                    - link:
+                                      - /url: /docs/environment-variables/system-environment-variables
+                                      - text: System Environment Variables
+                                      - img
+  - alert
+  - generic:
+    - generic:
+      - img
+  - dialog "Add Environment Variable" [ref=e327]:
+    - generic [ref=e328]:
+      - heading "Add Environment Variable" [level=2] [ref=e329]
+      - button "Close" [active] [ref=e330] [cursor=pointer]:
+        - img [ref=e332]
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e340]:
+            - generic [ref=e343]:
+              - generic [ref=e344]: key
+              - textbox "environment variable key" [ref=e346]:
+                - /placeholder: CLIENT_KEY…
+            - generic [ref=e348]:
+              - generic [ref=e349]: value
+              - textbox "shared environment variable value" [ref=e352]
+            - button "Create Note" [ref=e353] [cursor=pointer]:
+              - generic [ref=e354]: Create Note
+          - button "Add Another" [ref=e356] [cursor=pointer]:
+            - img [ref=e358]
+            - generic [ref=e360]: Add Another
+        - separator [ref=e363]
+        - generic [ref=e364]:
+          - generic [ref=e365]:
+            - generic [ref=e367]: Environments
+            - generic [ref=e368]:
+              - button "All Environments" [ref=e369] [cursor=pointer]:
+                - generic [ref=e371]:
+                  - img [ref=e373]
+                  - generic [ref=e375]: All Environments
+                - img [ref=e377]
+              - generic [ref=e379]:
+                - generic [ref=e381]: Branch
+                - button "Select a Custom Preview Branch" [ref=e383] [cursor=pointer]:
+                  - generic [ref=e384]: Select a Custom Preview Branch
+          - generic [ref=e386]:
+            - generic "Sensitive" [ref=e388]:
+              - generic [ref=e389]: Sensitive
+              - checkbox "Sensitive" [disabled] [ref=e390]
+            - generic [ref=e393]:
+              - img [ref=e395]
+              - paragraph [ref=e398]: Available for Production and Preview only
+      - generic [ref=e399]:
+        - generic [ref=e401]:
+          - button "Import .env" [ref=e403] [cursor=pointer]:
+            - img [ref=e405]
+            - generic [ref=e407]: Import .env
+          - paragraph [ref=e408]: or paste .env contents in Key input
+        - button "Save" [ref=e411] [cursor=pointer]:
+          - generic [ref=e412]: Save

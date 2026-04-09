@@ -1,0 +1,109 @@
+[    2628ms] [LOG] %c
+▲
+
+  ________            ___    ____   ________                __
+ /_  __/ /_  ___     /   |  /  _/  / ____/ /___  __  ______/ /
+  / / / __ \/ _ \   / /| |  / /   / /   / / __ \/ / / / __  /
+ / / / / / /  __/  / ___ |_/ /   / /___/ / /_/ / /_/ / /_/ /
+/_/ /_/ /_/\___/  /_/  |_/___/   \____/_/\____/\__,_/\__,_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/chunks/1-oagafcmfq95.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:72
+[    3749ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[    3792ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[    4790ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/chunks/3ztv00wviognb.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:18
+[    9063ms] [WARNING] The resource https://vercel.com/_next/static/media/stripe-light.2l_1jctpe6k_4.svg?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    9063ms] [WARNING] The resource https://vercel.com/_next/static/media/ebay-light.3ft_ki8203ov0.svg?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    9063ms] [WARNING] The resource https://vercel.com/_next/static/media/stripe-dark.16ozjth2vgb_3.svg?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    9063ms] [WARNING] The resource https://vercel.com/_next/static/media/ebay-dark.34mho2a18qqlt.svg?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    9063ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1dauoccxptplq.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    9063ms] [WARNING] The resource https://vercel.com/_next/static/chunks/30hhiu4y8vbj1.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    9063ms] [WARNING] The resource https://vercel.com/_next/static/media/adobe-light.406_7oryl71va.svg?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[   12010ms] [ERROR] The request has been aborted. @ https://vercel.com/login?next=%2Fdashboard:0
+[   12028ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason @ https://vercel.com/_next/static/chunks/2j8xvzdng27o3.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:2
+[   12341ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o205439.ingest.sentry.io/api/1323670/envelope/?sentry_key=d00780d432ac4ccf882f60dd02062e14&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.111.0:0
+[   17083ms] [LOG] %c
+▲
+
+  ________            ___    ____   ________                __
+ /_  __/ /_  ___     /   |  /  _/  / ____/ /___  __  ______/ /
+  / / / __ \/ _ \   / /| |  / /   / /   / / __ \/ / / / __  /
+ / / / / / /  __/  / ___ |_/ /   / /___/ / /_/ / /_/ / /_/ /
+/_/ /_/ /_/\___/  /_/  |_/___/   \____/_/\____/\__,_/\__,_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/chunks/1bs8h_v41y-z_.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:72
+[   18003ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/chunks/15-ctvgk2qmj0.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:18
+[   18274ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[   20393ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/_next/data/build-TfctsWXpff2fKS/hooperalexs-projects.json:0
+[   21165ms] [LOG] %c
+▲
+
+  ________            ___    ____   ________                __
+ /_  __/ /_  ___     /   |  /  _/  / ____/ /___  __  ______/ /
+  / / / __ \/ _ \   / /| |  / /   / /   / / __ \/ / / / __  /
+ / / / / / /  __/  / ___ |_/ /   / /___/ / /_/ / /_/ / /_/ /
+/_/ /_/ /_/\___/  /_/  |_/___/   \____/_/\____/\__,_/\__,_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/chunks/1-oagafcmfq95.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:72
+[   21308ms] [WARNING] iso_swr: SSR fetch failed for "/api/usage-summary?teamId=hooperalexs-projects" {error: iso_swr_fetch_error, message: Usage prefetch failed: no_cache} @ https://vercel.com/hooperalexs-projects:1198
+[   26617ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/api/usage-summary?teamId=hooperalexs-projects" {error: iso_swr_fetch_error, message: Usage prefetch failed: no_cache} @ https://vercel.com/_next/static/chunks/2j8xvzdng27o3.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:2
+[   30331ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/chunks/3ztv00wviognb.js?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5:18
+[   34256ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3agx33_et4rgj.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34256ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1dauoccxptplq.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1uw1dgdf8jkn6.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/32fr7u-y_htmq.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1_37s3uag80b2.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3-nexyhftg-t3.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/17f0l6hzzjgle.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/0fzol-s1ud6gu.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/303slq7wiabok.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   34257ms] [WARNING] The resource https://vercel.com/_next/static/chunks/25nnd13fh_4k5.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3agx33_et4rgj.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1dauoccxptplq.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1uw1dgdf8jkn6.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/32fr7u-y_htmq.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1_37s3uag80b2.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3-nexyhftg-t3.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/17f0l6hzzjgle.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/0fzol-s1ud6gu.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/303slq7wiabok.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   46863ms] [WARNING] The resource https://vercel.com/_next/static/chunks/25nnd13fh_4k5.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/13t1j7hlxsp-_.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3-uwim4km9d2w.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1uw1dgdf8jkn6.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1_noe_sqa8v1o.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/09fd2re-f94a3.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3-nexyhftg-t3.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1gjj9lrj5ytbo.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1q0xil20t6asv.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1osj3xgh9qd8m.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/25nnd13fh_4k5.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3agx33_et4rgj.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1dauoccxptplq.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3trafgdyw6a92.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/32fr7u-y_htmq.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/1_37s3uag80b2.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/3eqxfya23p0wi.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/17f0l6hzzjgle.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/0fzol-s1ud6gu.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
+[   53084ms] [WARNING] The resource https://vercel.com/_next/static/chunks/303slq7wiabok.css?dpl=dpl_DEgRnmdUD2Pmw7KSHqafkefiWXs5 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/hooperalexs-projects/imem-web:0
