@@ -1,0 +1,275 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - generic [ref=e7]:
+      - banner "Global Navigation Menu" [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Open menu" [ref=e12] [cursor=pointer]:
+              - img [ref=e13]
+            - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+              - /url: /
+              - img [ref=e16]
+          - generic [ref=e18]:
+            - navigation "Breadcrumbs" [ref=e19]:
+              - list [ref=e20]:
+                - listitem [ref=e21]:
+                  - link "hooperalex" [ref=e22] [cursor=pointer]:
+                    - /url: /hooperalex
+                    - generic [ref=e23]: hooperalex
+                - listitem [ref=e24]:
+                  - link "imem-ai" [ref=e25] [cursor=pointer]:
+                    - /url: /hooperalex/imem-ai
+                    - generic [ref=e26]: imem-ai
+            - button "Search or jump to…" [ref=e29] [cursor=pointer]:
+              - generic [ref=e30]:
+                - generic:
+                  - img
+                - generic [ref=e31]:
+                  - generic:
+                    - text: Type
+                    - generic: /
+                    - text: to search
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e36]:
+                - link "Chat with Copilot" [ref=e38] [cursor=pointer]:
+                  - /url: /copilot
+                  - img [ref=e39]
+                - button "Open Copilot…" [ref=e43] [cursor=pointer]:
+                  - generic:
+                    - img
+              - button "Create new..." [ref=e45] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - generic:
+                    - img
+                - generic:
+                  - img
+              - link "Issues" [ref=e47] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e48]
+              - link "Pull requests" [ref=e51] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e52]
+              - link "Repositories" [ref=e54] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e55]
+            - link "You have no unread notifications (g then n)" [ref=e57] [cursor=pointer]:
+              - /url: /notifications
+              - img [ref=e58]
+            - button "Open user navigation menu" [ref=e61] [cursor=pointer]:
+              - img "User avatar" [ref=e62]
+        - heading "Repository navigation" [level=2] [ref=e63]
+        - navigation "Repository" [ref=e64]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - link "Code" [ref=e67] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai
+                - img [ref=e69]
+                - generic [ref=e71]: Code
+            - listitem [ref=e72]:
+              - link "Issues" [ref=e73] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/issues
+                - img [ref=e75]
+                - generic [ref=e78]: Issues
+            - listitem [ref=e79]:
+              - link "Pull requests" [ref=e80] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/pulls
+                - img [ref=e82]
+                - generic [ref=e84]: Pull requests
+            - listitem [ref=e85]:
+              - link "Actions" [ref=e86] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/actions
+                - img [ref=e88]
+                - generic [ref=e90]: Actions
+            - listitem [ref=e91]:
+              - link "Projects" [ref=e92] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/projects
+                - img [ref=e94]
+                - generic [ref=e96]: Projects
+            - listitem [ref=e97]:
+              - link "Wiki" [ref=e98] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/wiki
+                - img [ref=e100]
+                - generic [ref=e102]: Wiki
+            - listitem [ref=e103]:
+              - link "Security and quality" [ref=e104] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/security
+                - img [ref=e106]
+                - generic [ref=e108]: Security and quality
+            - listitem [ref=e109]:
+              - link "Insights" [ref=e110] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/pulse
+                - img [ref=e112]
+                - generic [ref=e114]: Insights
+            - listitem [ref=e115]:
+              - link "Settings" [ref=e116] [cursor=pointer]:
+                - /url: /hooperalex/imem-ai/settings
+                - img [ref=e118]
+                - generic [ref=e120]: Settings
+      - region "Important update" [ref=e122]:
+        - img [ref=e124]
+        - generic [ref=e127]:
+          - heading "Important update" [level=2] [ref=e129]
+          - generic [ref=e131]:
+            - text: On April 24 we'll start using GitHub Copilot interaction data for AI model training unless you opt out.
+            - link "Review this update" [ref=e132] [cursor=pointer]:
+              - /url: https://gh.io/AAzfaht
+            - text: and manage your preferences in your
+            - link "GitHub account settings" [ref=e133] [cursor=pointer]:
+              - /url: https://github.com/settings/copilot/features
+            - text: .
+        - button "Dismiss banner" [ref=e134] [cursor=pointer]:
+          - img [ref=e135]
+  - main [ref=e140]:
+    - generic [ref=e142]:
+      - generic [ref=e144]:
+        - img "Owner avatar" [ref=e145]
+        - strong [ref=e146]:
+          - link "imem-ai" [ref=e147] [cursor=pointer]:
+            - /url: /hooperalex/imem-ai
+        - generic [ref=e148]: Public
+      - generic [ref=e149]:
+        - list:
+          - listitem [ref=e150]:
+            - button "Pin" [ref=e153] [cursor=pointer]:
+              - img [ref=e154]
+              - text: Pin
+          - listitem [ref=e156]:
+            - 'button "Watch: Participating in hooperalex/imem-ai" [ref=e159] [cursor=pointer]':
+              - generic [ref=e160]:
+                - generic:
+                  - img
+                - generic [ref=e161]:
+                  - text: Watch
+                  - generic [ref=e162]: "0"
+              - generic:
+                - img
+          - listitem [ref=e163]:
+            - generic [ref=e164]:
+              - button "Fork 0" [disabled] [ref=e165]:
+                - img [ref=e166]
+                - text: Fork
+                - generic "0" [ref=e168]
+              - group [ref=e169]:
+                - button "See your forks of this repository" [ref=e170] [cursor=pointer]:
+                  - img [ref=e171]
+          - listitem [ref=e173]:
+            - generic [ref=e175]:
+              - button "Star this repository (0)" [ref=e177] [cursor=pointer]:
+                - img [ref=e178]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e180]: "0"
+              - button "Add this repository to a list" [ref=e184] [cursor=pointer]:
+                - img
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - generic [ref=e192]:
+          - img [ref=e193]
+          - heading "Start coding with Codespaces" [level=3] [ref=e196]
+          - paragraph [ref=e197]: Add a README file and start coding in a secure, configurable, and dedicated development environment.
+          - link "Create a codespace" [ref=e198] [cursor=pointer]:
+            - /url: /codespaces/new/hooperalex/imem-ai?auto_init=1&resume=1
+            - generic [ref=e200]: Create a codespace
+        - generic [ref=e202]:
+          - img [ref=e203]
+          - heading "Add collaborators to this repository" [level=3] [ref=e205]
+          - paragraph [ref=e206]: Search for people using their GitHub username or email address.
+          - link "Invite collaborators" [ref=e207] [cursor=pointer]:
+            - /url: /hooperalex/imem-ai/settings/access
+            - generic [ref=e209]: Invite collaborators
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - heading "Quick setup — if you’ve done this kind of thing before" [level=3] [ref=e212]:
+            - strong [ref=e213]: Quick setup
+            - text: — if you’ve done this kind of thing before
+          - generic [ref=e214]:
+            - link "Set up in Desktop" [ref=e216] [cursor=pointer]:
+              - /url: https://desktop.github.com
+              - img [ref=e217]
+              - text: Set up in Desktop
+            - strong [ref=e221]: or
+            - generic [ref=e223]:
+              - button "HTTPS" [ref=e225] [cursor=pointer]
+              - button "SSH" [ref=e227] [cursor=pointer]
+            - generic [ref=e230]:
+              - textbox "Clone URL" [ref=e231]: https://github.com/hooperalex/imem-ai.git
+              - button "Copy to clipboard" [ref=e233] [cursor=pointer]:
+                - img [ref=e234]
+          - paragraph [ref=e237]:
+            - text: Get started by
+            - link "creating a new file" [ref=e238] [cursor=pointer]:
+              - /url: /hooperalex/imem-ai/new/main
+            - text: or
+            - link "uploading an existing file" [ref=e239] [cursor=pointer]:
+              - /url: /hooperalex/imem-ai/upload
+            - text: . We recommend every repository include a
+            - link "README" [ref=e240] [cursor=pointer]:
+              - /url: /hooperalex/imem-ai/new/main?readme=1
+            - text: ","
+            - link "LICENSE" [ref=e241] [cursor=pointer]:
+              - /url: /hooperalex/imem-ai/new/main?filename=LICENSE.md
+            - text: ", and"
+            - link ".gitignore" [ref=e242] [cursor=pointer]:
+              - /url: /hooperalex/imem-ai/new/main?filename=.gitignore
+            - text: .
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - heading "…or create a new repository on the command line" [level=3] [ref=e245]
+            - generic [ref=e246]:
+              - button "Copy to clipboard" [ref=e248] [cursor=pointer]:
+                - img [ref=e249]
+              - generic [ref=e252]:
+                - text: echo "# imem-ai" >> README.md git init git add README.md git commit -m "first commit" git branch -M main
+                - generic [ref=e253]: git remote add origin https://github.com/hooperalex/imem-ai.git
+                - text: git push -u origin main
+          - generic [ref=e254]:
+            - heading "…or push an existing repository from the command line" [level=3] [ref=e255]
+            - generic [ref=e256]:
+              - button "Copy to clipboard" [ref=e258] [cursor=pointer]:
+                - img [ref=e259]
+              - generic [ref=e262]:
+                - generic [ref=e263]: git remote add origin https://github.com/hooperalex/imem-ai.git
+                - text: git branch -M main git push -u origin main
+      - generic [ref=e264]:
+        - img [ref=e265]
+        - strong [ref=e267]: ProTip!
+        - text: Use the URL for this page when adding GitHub as a remote.
+  - contentinfo [ref=e268]:
+    - heading "Footer" [level=2] [ref=e269]
+    - generic [ref=e270]:
+      - generic [ref=e271]:
+        - link "GitHub Homepage" [ref=e272] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e273]
+        - generic [ref=e275]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e276]:
+        - heading "Footer navigation" [level=3] [ref=e277]
+        - list "Footer navigation" [ref=e278]:
+          - listitem [ref=e279]:
+            - link "Terms" [ref=e280] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e281]:
+            - link "Privacy" [ref=e282] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e283]:
+            - link "Security" [ref=e284] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e285]:
+            - link "Status" [ref=e286] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e287]:
+            - link "Community" [ref=e288] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e289]:
+            - link "Docs" [ref=e290] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e291]:
+            - link "Contact" [ref=e292] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e293]:
+            - button "Manage cookies" [ref=e295] [cursor=pointer]
+          - listitem [ref=e296]:
+            - button "Do not share my personal information" [ref=e298] [cursor=pointer]

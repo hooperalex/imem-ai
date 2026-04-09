@@ -1,0 +1,76 @@
+- generic [ref=e1]:
+  - dialog "Cookie Consent Banner" [ref=e2]:
+    - button "Close this dialog" [ref=e3] [cursor=pointer]:
+      - img "Close this dialog" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and marketing. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies.
+      - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+        - /url: https://railway.com/legal/privacy
+    - generic [ref=e8]:
+      - button "Manage Preferences" [ref=e9] [cursor=pointer]
+      - button "Accept All" [ref=e10] [cursor=pointer]
+      - button "Reject Non-Essential" [ref=e11] [cursor=pointer]
+  - generic [ref=e14]:
+    - banner [ref=e16]:
+      - generic [ref=e17]:
+        - link "Railway Logo" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "Railway Logo" [ref=e20]
+        - button "New project" [ref=e26] [cursor=pointer]:
+          - img [ref=e28]
+          - generic [ref=e30]: New project
+      - navigation [ref=e31]:
+        - button "Login" [ref=e33] [cursor=pointer]
+    - region [ref=e40]:
+      - generic [ref=e45]:
+        - img [ref=e46]
+        - generic [ref=e49]:
+          - generic:
+            - img
+            - button "Create to-do list function with a database" [ref=e50]:
+              - generic [ref=e54]:
+                - combobox [expanded] [active] [ref=e57]
+                - listbox "Suggestions" [ref=e58]:
+                  - generic [ref=e59]:
+                    - option "Create to-do list function with a database" [selected] [ref=e60] [cursor=pointer]:
+                      - generic [ref=e61]:
+                        - img [ref=e63]
+                        - text: Create to-do list function with a database
+                    - option "Deploy Redis, Postgres, and a Bucket" [ref=e65] [cursor=pointer]:
+                      - generic [ref=e66]:
+                        - img [ref=e68]
+                        - text: Deploy Redis, Postgres, and a Bucket
+                    - separator [ref=e70]
+                    - option "GitHub Repository" [ref=e71] [cursor=pointer]:
+                      - generic [ref=e72]:
+                        - img [ref=e74]
+                        - text: GitHub Repository
+                        - img [ref=e77]
+                    - option "Database" [ref=e79] [cursor=pointer]:
+                      - generic [ref=e80]:
+                        - img [ref=e82]
+                        - text: Database
+                        - img [ref=e87]
+                    - option "Template" [ref=e89] [cursor=pointer]:
+                      - generic [ref=e90]:
+                        - img [ref=e92]
+                        - text: Template
+                        - img [ref=e95]
+                    - option "Docker Image" [ref=e97] [cursor=pointer]:
+                      - generic [ref=e98]:
+                        - img [ref=e100]
+                        - text: Docker Image
+                        - img [ref=e103]
+                    - option "Function" [ref=e105] [cursor=pointer]:
+                      - generic [ref=e106]:
+                        - img [ref=e108]
+                        - text: Function
+                    - option "Bucket" [ref=e111] [cursor=pointer]:
+                      - generic [ref=e112]:
+                        - img [ref=e114]
+                        - text: Bucket
+                    - option "Empty Project" [disabled] [ref=e117] [cursor=pointer]:
+                      - generic [ref=e118]:
+                        - img [ref=e120]
+                        - text: Empty Project
+                        - img [ref=e123]

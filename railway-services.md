@@ -1,0 +1,89 @@
+- generic [ref=e185]:
+  - banner [ref=e187]:
+    - generic [ref=e188]:
+      - link "Railway Logo" [ref=e189] [cursor=pointer]:
+        - /url: /dashboard
+        - img "Railway Logo" [ref=e191]
+      - generic [ref=e194]:
+        - button "lavish-motivation" [ref=e197] [cursor=pointer]:
+          - generic "hooperalex's Projects" [ref=e198]
+          - generic [ref=e200]: lavish-motivation
+          - img [ref=e202]
+        - button "production" [ref=e206] [cursor=pointer]:
+          - generic [ref=e207]: production
+          - img [ref=e209]
+    - navigation [ref=e211]:
+      - generic [ref=e213]:
+        - button "Toggle activity" [ref=e215] [cursor=pointer]:
+          - img [ref=e217]
+        - button "1" [ref=e219] [cursor=pointer]:
+          - generic [ref=e220]:
+            - img [ref=e222]
+            - generic [ref=e224]: "1"
+        - button "Trial expired" [ref=e226] [cursor=pointer]:
+          - generic [ref=e227]:
+            - img [ref=e229]
+            - paragraph [ref=e231]: Trial expired
+        - button "Agent" [ref=e233] [cursor=pointer]:
+          - img [ref=e235]
+          - text: Agent
+  - generic [ref=e237]:
+    - navigation "Project navigation" [ref=e238]:
+      - generic [ref=e239]:
+        - link "Architecture" [ref=e242] [cursor=pointer]:
+          - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a?environmentId=4dc0a705-1f0d-4243-aca4-637f574caa2c
+          - img [ref=e244]
+        - link "Observability" [ref=e250] [cursor=pointer]:
+          - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a/observability?environmentId=4dc0a705-1f0d-4243-aca4-637f574caa2c
+          - img [ref=e252]
+        - link "Logs" [ref=e255] [cursor=pointer]:
+          - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a/logs?environmentId=4dc0a705-1f0d-4243-aca4-637f574caa2c
+          - img [ref=e257]
+        - link "Settings" [ref=e261] [cursor=pointer]:
+          - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a/settings?environmentId=4dc0a705-1f0d-4243-aca4-637f574caa2c
+          - img [ref=e263]
+      - button [ref=e266] [cursor=pointer]:
+        - generic "hooper.alex@gmail.com" [ref=e268]
+    - region [ref=e274]:
+      - generic [ref=e279]:
+        - img [ref=e280]
+        - generic [ref=e281]:
+          - generic [ref=e283]:
+            - generic:
+              - img
+              - generic:
+                - button "bimbo Service is offline" [ref=e284]:
+                  - link "bimbo Service is offline" [ref=e287] [cursor=pointer]:
+                    - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a/service/8c4115d3-98fd-48f7-8049-ed161283fef2?environmentId=4dc0a705-1f0d-4243-aca4-637f574caa2c
+                    - generic [ref=e288]:
+                      - img [ref=e290]
+                      - paragraph [ref=e293]: bimbo
+                    - paragraph [ref=e294]: Service is offline
+                - button "natural-optimism Service is offline" [ref=e295]:
+                  - link "natural-optimism Service is offline" [ref=e298] [cursor=pointer]:
+                    - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a/service/56761b9e-1462-4dec-acb2-668eb04ec483?environmentId=4dc0a705-1f0d-4243-aca4-637f574caa2c
+                    - generic [ref=e299]:
+                      - img [ref=e301]
+                      - paragraph [ref=e304]: natural-optimism
+                    - paragraph [ref=e305]: Service is offline
+          - toolbar "Canvas options" [ref=e307]:
+            - button "Canvas settings" [ref=e308] [cursor=pointer]:
+              - img [ref=e310]
+            - group "canvas action" [ref=e320]:
+              - button "Zoom in" [ref=e321] [cursor=pointer]:
+                - img [ref=e323]
+              - button "Zoom out" [ref=e325] [cursor=pointer]:
+                - img [ref=e327]
+              - button "Center canvas" [ref=e328] [cursor=pointer]:
+                - img [ref=e330]
+            - group "canvas action" [ref=e335]:
+              - button "Undo" [ref=e336] [cursor=pointer]:
+                - img [ref=e338]
+              - button "Redo" [ref=e341] [cursor=pointer]:
+                - img [ref=e343]
+            - button "Visibility layers" [ref=e346] [cursor=pointer]:
+              - img [ref=e348]
+          - button "Add" [ref=e353] [cursor=pointer]:
+            - img [ref=e355]
+            - generic [ref=e357]: Add
+          - img [ref=e358]

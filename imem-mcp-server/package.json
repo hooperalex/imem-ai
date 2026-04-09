@@ -1,0 +1,37 @@
+{
+  "name": "@imem/mcp-server",
+  "version": "0.1.0",
+  "description": "imem.ai MCP Server - Voice-enabled AI memory built on MemPalace",
+  "type": "module",
+  "bin": {
+    "imem-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "http": "node build/http-bridge.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "chromadb": "^1.9.2",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "openai": "^4.77.3",
+    "ws": "^8.18.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/ws": "^8.5.13",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [
+    "mcp",
+    "ai-memory",
+    "voice",
+    "mempalace"
+  ]
+}

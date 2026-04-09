@@ -1,0 +1,180 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e5]:
+          - link "Render" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "Render" [ref=e8]
+          - button "A Alex's workspace" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]:
+              - generic [ref=e14]: A
+              - generic "Alex's workspace" [ref=e15]
+              - img [ref=e16]
+        - generic [ref=e20]:
+          - navigation [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - generic [ref=e24]:
+                  - img [ref=e25]
+                  - generic [ref=e29]: Projects
+          - button "Search Ctrl + K" [ref=e31] [cursor=pointer]:
+            - img [ref=e33]
+            - text: Search
+            - generic [ref=e35]:
+              - img [ref=e36]
+              - generic [ref=e38]: Ctrl
+              - generic [ref=e39]: +
+              - generic [ref=e40]: K
+              - generic [ref=e41]: K
+        - generic [ref=e42]:
+          - button "New" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - generic [ref=e48]: New
+          - button "Upgrade" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - img [ref=e52]
+              - generic [ref=e54]: Upgrade
+          - button "Help" [ref=e56] [cursor=pointer]:
+            - img "Help" [ref=e57]
+          - button "h" [ref=e62] [cursor=pointer]:
+            - generic [ref=e64]: h
+      - generic [ref=e66]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - heading "Create a new Service" [level=2] [ref=e72]:
+              - generic [ref=e73]: Create a new Service
+            - button "Skip" [ref=e75] [cursor=pointer]:
+              - img [ref=e77]
+              - text: Skip
+          - generic [ref=e79]:
+            - list [ref=e81]:
+              - listitem [ref=e82]:
+                - generic [ref=e84]:
+                  - img [ref=e86]
+                  - generic [ref=e89]: "1"
+                - heading "Choose service" [level=3] [ref=e91]
+                - img [ref=e93]
+              - listitem [ref=e95]:
+                - generic [ref=e97]:
+                  - img [ref=e100]
+                  - generic [ref=e103]: "2"
+                - heading "Configure" [level=3] [ref=e105]
+                - img [ref=e107]
+              - listitem [ref=e109]:
+                - generic [ref=e111]:
+                  - img [ref=e114]
+                  - generic [ref=e117]: "3"
+                - heading "Deploy" [level=3] [ref=e119]
+            - link "Which to use?" [ref=e121] [cursor=pointer]:
+              - /url: https://render.com/docs/service-types
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - img [ref=e129]
+                  - generic [ref=e132]: Static Sites
+                - generic [ref=e133]: Static content served over a global CDN. Ideal for frontend, blogs, and content sites.
+              - link "New Static Site" [ref=e135] [cursor=pointer]:
+                - /url: /static/new?onboarding=active
+                - text: New Static Site
+                - img [ref=e137]
+          - listitem [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - img [ref=e143]
+                  - generic [ref=e145]: Web Services
+                - generic [ref=e146]: Dynamic web app. Ideal for full-stack apps, API servers, and mobile backends.
+              - link "New Web Service" [ref=e148] [cursor=pointer]:
+                - /url: /web/new?onboarding=active
+                - text: New Web Service
+                - img [ref=e150]
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - img [ref=e156]
+                  - generic [ref=e158]: Private Services
+                - generic [ref=e159]: Web app hosted on a private network, accessible only from your other Render services.
+              - link "New Private Service" [ref=e161] [cursor=pointer]:
+                - /url: /pserv/new?onboarding=active
+                - text: New Private Service
+                - img [ref=e163]
+          - listitem [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - img [ref=e169]
+                  - generic [ref=e174]: Background Workers
+                - generic [ref=e175]: Long-lived services that process async tasks, usually from a job queue.
+              - link "New Worker" [ref=e177] [cursor=pointer]:
+                - /url: /worker/new?onboarding=active
+                - text: New Worker
+                - img [ref=e179]
+          - listitem [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - img [ref=e185]
+                  - generic [ref=e189]: Cron Jobs
+                - generic [ref=e190]: Short-lived tasks that run on a periodic schedule.
+              - link "New Cron Job" [ref=e192] [cursor=pointer]:
+                - /url: /cron/new?onboarding=active
+                - text: New Cron Job
+                - img [ref=e194]
+          - listitem [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - generic [ref=e199]:
+                  - img [ref=e200]
+                  - generic [ref=e202]: Postgres
+                - generic [ref=e203]: Relational data storage. Supports point-in-time recovery, read replicas, and high availability.
+              - link "New Postgres" [ref=e205] [cursor=pointer]:
+                - /url: /new/database?onboarding=active
+                - text: New Postgres
+                - img [ref=e207]
+          - listitem [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - img [ref=e213]
+                  - generic [ref=e217]: Key Value
+                - generic [ref=e218]: Managed Redis®-compatible storage. Ideal for use as a shared cache, message broker, or job queue.
+              - link "New Key Value Instance" [ref=e220] [cursor=pointer]:
+                - /url: /new/redis?onboarding=active
+                - text: New Key Value Instance
+                - img [ref=e222]
+          - listitem [ref=e224]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - img [ref=e228]
+                  - generic [ref=e233]: Workflow
+                  - generic [ref=e234]: Beta
+                - generic [ref=e235]: Run thousands of parallel tasks with zero ops overhead.
+              - link "New Workflow" [ref=e237] [cursor=pointer]:
+                - /url: /workflow/new?onboarding=active
+                - text: New Workflow
+                - img [ref=e239]
+    - generic:
+      - generic:
+        - generic: "0 services selected:"
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic:
+                  - img
+                - generic: Move
+                - img
+      - generic:
+        - separator
+        - generic:
+          - generic:
+            - button:
+              - img
+  - iframe [ref=e241]:
+    

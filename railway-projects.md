@@ -1,0 +1,143 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Railway Logo" [ref=e7] [cursor=pointer]:
+          - /url: /dashboard
+          - img "Railway Logo" [ref=e9]
+        - button "hooperalex's Projects Trial" [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]:
+            - generic "hooperalex's Projects" [ref=e16]
+            - generic [ref=e18]: hooperalex's Projects
+            - generic [ref=e19]: Trial
+            - img [ref=e21]
+      - navigation [ref=e25]:
+        - link "Projects" [ref=e26] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e27]:
+            - img [ref=e29]
+            - generic [ref=e31]: Projects
+        - link "Templates" [ref=e32] [cursor=pointer]:
+          - /url: /workspace/templates
+          - generic [ref=e33]:
+            - img [ref=e35]
+            - generic [ref=e38]: Templates
+        - link "Usage" [ref=e40] [cursor=pointer]:
+          - /url: /workspace/usage
+          - generic [ref=e41]:
+            - img [ref=e43]
+            - generic [ref=e45]: Usage
+        - link "People" [ref=e46] [cursor=pointer]:
+          - /url: /workspace/people
+          - generic [ref=e47]:
+            - img [ref=e49]
+            - generic [ref=e53]: People
+        - button "Settings" [ref=e54] [cursor=pointer]:
+          - img [ref=e56]
+          - generic [ref=e58]:
+            - text: Settings
+            - img [ref=e60]
+      - generic [ref=e64]:
+        - link "Docs ↗" [ref=e65] [cursor=pointer]:
+          - /url: https://docs.railway.com
+          - generic [ref=e66]:
+            - img [ref=e69]
+            - generic [ref=e72]: Docs ↗
+        - link "Central Station ↗" [ref=e73] [cursor=pointer]:
+          - /url: https://station.railway.com
+          - generic [ref=e74]:
+            - img [ref=e77]
+            - generic [ref=e84]: Central Station ↗
+        - link "My support threads ↗" [ref=e85] [cursor=pointer]:
+          - /url: https://backboard.railway.com/csc/auth/login?redirect_uri=https%3A%2F%2Fstation-server.railway.com%2Fauth%2Fcallback%3FredirectTo%3D%252Fmy-threads
+          - generic [ref=e86]:
+            - img [ref=e89]
+            - generic [ref=e91]: My support threads ↗
+    - button "hooper.alex@gmail.com" [ref=e94] [cursor=pointer]:
+      - generic [ref=e95]:
+        - generic "hooper.alex@gmail.com" [ref=e96]
+        - paragraph [ref=e98]: hooper.alex@gmail.com
+        - img [ref=e100]
+    - button "Collapse sidebar" [ref=e104]
+  - generic [ref=e106]:
+    - banner [ref=e107]:
+      - generic [ref=e108]:
+        - button "1" [ref=e109] [cursor=pointer]:
+          - generic [ref=e110]:
+            - img [ref=e112]
+            - generic [ref=e114]: "1"
+        - button "Trial expired" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]:
+            - img [ref=e119]
+            - paragraph [ref=e121]: Trial expired
+    - main [ref=e123]:
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - heading "Projects" [level=1] [ref=e127]
+          - button "New" [ref=e128] [cursor=pointer]:
+            - img [ref=e130]
+            - generic [ref=e132]: New
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: Trial Ended
+            - generic [ref=e138]: "|"
+            - generic [ref=e139]: Thanks for trying Railway! Upgrade now to continue using the platform.
+          - link "Upgrade now" [ref=e140] [cursor=pointer]:
+            - /url: /workspace/plans
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - button "2 Projects" [ref=e145] [cursor=pointer]:
+                - img [ref=e147]
+                - text: 2 Projects
+              - generic [ref=e150]:
+                - generic [ref=e151]: Project sort
+                - generic [ref=e152]:
+                  - combobox "Project sort" [ref=e153] [cursor=pointer]:
+                    - 'option "Sort By: Recent Activity" [selected]'
+                    - 'option "Sort By: Creation Date"'
+                    - 'option "Sort By: Alphabetical"'
+                  - generic:
+                    - generic:
+                      - img
+            - group "View display" [ref=e155]:
+              - radio [checked] [ref=e156] [cursor=pointer]:
+                - img [ref=e160]
+              - radio [ref=e162] [cursor=pointer]:
+                - img [ref=e165]
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - link "View Project" [ref=e169] [cursor=pointer]:
+                - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a?
+                - generic [ref=e170]: View Project
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: lavish-motivation
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link [ref=e171] [cursor=pointer]:
+                          - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a/service/56761b9e-1462-4dec-acb2-668eb04ec483?
+                          - img [ref=e174]
+                        - link [ref=e176] [cursor=pointer]:
+                          - /url: /project/798e2b68-8a58-46b1-8c93-3f041e16557a/service/8c4115d3-98fd-48f7-8049-ed161283fef2?
+                          - img [ref=e179]
+                    - generic:
+                      - generic:
+                        - generic: production
+                        - generic: ·
+                        - generic: 0/2 services online
+            - generic [ref=e181]:
+              - link "View Project" [ref=e182] [cursor=pointer]:
+                - /url: /project/854509e6-4aee-4fc8-983b-e149c58da458?
+                - generic [ref=e183]: View Project
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: outstanding-perception
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: No services

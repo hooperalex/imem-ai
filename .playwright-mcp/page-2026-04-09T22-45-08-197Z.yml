@@ -1,0 +1,451 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - generic [ref=e7]:
+      - banner "Global Navigation Menu" [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Open menu" [ref=e12] [cursor=pointer]:
+              - img [ref=e13]
+            - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+              - /url: /
+              - img [ref=e16]
+          - button "Search or jump to…" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]:
+              - generic:
+                - img
+              - generic [ref=e23]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - generic [ref=e28]:
+                - link "Chat with Copilot" [ref=e30] [cursor=pointer]:
+                  - /url: /copilot
+                  - img [ref=e31]
+                - button "Open Copilot…" [ref=e35] [cursor=pointer]:
+                  - generic:
+                    - img
+              - button "Create new..." [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]:
+                  - generic:
+                    - img
+                - generic:
+                  - img
+              - link "Issues (g then i)" [ref=e39] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e40]
+              - link "Pull requests (g then p)" [ref=e43] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e44]
+              - link "Repositories" [ref=e46] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e47]
+            - link "You have no unread notifications (g then n)" [ref=e49] [cursor=pointer]:
+              - /url: /notifications
+              - img [ref=e50]
+            - button "Open user navigation menu" [ref=e53] [cursor=pointer]:
+              - img "User avatar" [ref=e54]
+      - region "Important update" [ref=e56]:
+        - img [ref=e58]
+        - generic [ref=e61]:
+          - heading "Important update" [level=2] [ref=e63]
+          - generic [ref=e65]:
+            - text: On April 24 we'll start using GitHub Copilot interaction data for AI model training unless you opt out.
+            - link "Review this update" [ref=e66] [cursor=pointer]:
+              - /url: https://gh.io/AAzfaht
+            - text: and manage your preferences in your
+            - link "GitHub account settings" [ref=e67] [cursor=pointer]:
+              - /url: https://github.com/settings/copilot/features
+            - text: .
+        - button "Dismiss banner" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+  - main [ref=e73]:
+    - generic [ref=e74]:
+      - generic "hooperalex (hooperalex) settings" [ref=e75]:
+        - generic [ref=e76]:
+          - img "@hooperalex" [ref=e77]
+          - generic [ref=e78]:
+            - heading "hooperalex (hooperalex) settings" [level=1] [ref=e79]:
+              - link "hooperalex (hooperalex)" [ref=e80] [cursor=pointer]:
+                - /url: /hooperalex
+              - generic [ref=e81]: settings
+            - paragraph [ref=e83]: Your personal account
+        - link "Go to your personal profile" [ref=e85] [cursor=pointer]:
+          - /url: /hooperalex
+      - generic [ref=e86]:
+        - navigation "User settings" [ref=e90]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Public profile" [ref=e94] [cursor=pointer]:
+                - /url: /settings/profile
+                - generic:
+                  - img
+                - generic [ref=e95]: Public profile
+            - listitem [ref=e96]:
+              - link "Account" [ref=e97] [cursor=pointer]:
+                - /url: /settings/admin
+                - generic:
+                  - img
+                - generic [ref=e98]: Account
+            - listitem [ref=e99]:
+              - link "Appearance" [ref=e100] [cursor=pointer]:
+                - /url: /settings/appearance
+                - generic:
+                  - img
+                - generic [ref=e101]: Appearance
+            - listitem [ref=e102]:
+              - link "Accessibility" [ref=e103] [cursor=pointer]:
+                - /url: /settings/accessibility
+                - generic:
+                  - img
+                - generic [ref=e104]: Accessibility
+            - listitem [ref=e105]:
+              - link "Notifications" [ref=e106] [cursor=pointer]:
+                - /url: /settings/notifications
+                - generic:
+                  - img
+                - generic [ref=e107]: Notifications
+            - listitem [ref=e108]
+            - listitem [ref=e109]:
+              - generic [ref=e112]:
+                - heading "Access" [level=2] [ref=e114]
+                - list "Access" [ref=e115]:
+                  - listitem [ref=e116]:
+                    - button "Billing and licensing" [ref=e117] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e118]: Billing and licensing
+                      - generic:
+                        - img
+                  - listitem [ref=e119]:
+                    - link "Emails" [ref=e120] [cursor=pointer]:
+                      - /url: /settings/emails
+                      - generic:
+                        - img
+                      - generic [ref=e121]: Emails
+                  - listitem [ref=e122]:
+                    - link "Password and authentication" [ref=e123] [cursor=pointer]:
+                      - /url: /settings/security
+                      - generic:
+                        - img
+                      - generic [ref=e124]: Password and authentication
+                  - listitem [ref=e125]:
+                    - link "Sessions" [ref=e126] [cursor=pointer]:
+                      - /url: /settings/sessions
+                      - generic:
+                        - img
+                      - generic [ref=e127]: Sessions
+                  - listitem [ref=e128]:
+                    - link "SSH and GPG keys" [ref=e129] [cursor=pointer]:
+                      - /url: /settings/keys
+                      - generic:
+                        - img
+                      - generic [ref=e130]: SSH and GPG keys
+                  - listitem [ref=e131]:
+                    - link "Organizations" [ref=e132] [cursor=pointer]:
+                      - /url: /settings/organizations
+                      - generic:
+                        - img
+                      - generic [ref=e133]: Organizations
+                  - listitem [ref=e134]:
+                    - link "Enterprises" [ref=e135] [cursor=pointer]:
+                      - /url: /settings/enterprises
+                      - generic:
+                        - generic:
+                          - img
+                      - generic [ref=e136]: Enterprises
+                  - listitem [ref=e137]:
+                    - button "Moderation" [ref=e138] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e139]: Moderation
+                      - generic:
+                        - img
+            - listitem [ref=e140]
+            - listitem [ref=e141]:
+              - generic [ref=e144]:
+                - heading "Code, planning, and automation" [level=2] [ref=e146]
+                - list "Code, planning, and automation" [ref=e147]:
+                  - listitem [ref=e148]:
+                    - link "Repositories" [ref=e149] [cursor=pointer]:
+                      - /url: /settings/repositories
+                      - generic:
+                        - img
+                      - generic [ref=e150]: Repositories
+                  - listitem [ref=e151]:
+                    - link "Codespaces" [ref=e152] [cursor=pointer]:
+                      - /url: /settings/codespaces
+                      - generic:
+                        - img
+                      - generic [ref=e153]: Codespaces
+                  - listitem [ref=e154]:
+                    - link "Models Preview feature" [ref=e155] [cursor=pointer]:
+                      - /url: /settings/models
+                      - generic:
+                        - img
+                      - generic [ref=e156]: Models
+                      - generic:
+                        - generic "Preview feature": Preview
+                  - listitem [ref=e157]:
+                    - link "Packages" [ref=e158] [cursor=pointer]:
+                      - /url: /settings/packages
+                      - generic:
+                        - img
+                      - generic [ref=e159]: Packages
+                  - listitem [ref=e160]:
+                    - button "Copilot" [ref=e161] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e162]: Copilot
+                      - generic:
+                        - img
+                  - listitem [ref=e163]:
+                    - link "Pages" [ref=e164] [cursor=pointer]:
+                      - /url: /settings/pages
+                      - generic:
+                        - img
+                      - generic [ref=e165]: Pages
+                  - listitem [ref=e166]:
+                    - link "Saved replies" [ref=e167] [cursor=pointer]:
+                      - /url: /settings/replies
+                      - generic:
+                        - img
+                      - generic [ref=e168]: Saved replies
+            - listitem [ref=e169]
+            - listitem [ref=e170]:
+              - generic [ref=e173]:
+                - heading "Security" [level=2] [ref=e175]
+                - list "Security" [ref=e176]:
+                  - listitem [ref=e177]:
+                    - link "Code security" [ref=e178] [cursor=pointer]:
+                      - /url: /settings/security_analysis
+                      - generic:
+                        - img
+                      - generic [ref=e179]: Code security
+            - listitem [ref=e180]
+            - listitem [ref=e181]:
+              - generic [ref=e184]:
+                - heading "Integrations" [level=3] [ref=e186]
+                - list "Integrations" [ref=e187]:
+                  - listitem [ref=e188]:
+                    - link "Applications" [ref=e189] [cursor=pointer]:
+                      - /url: /settings/installations
+                      - generic:
+                        - img
+                      - generic [ref=e190]: Applications
+                  - listitem [ref=e191]:
+                    - link "Scheduled reminders" [ref=e192] [cursor=pointer]:
+                      - /url: /settings/reminders
+                      - generic:
+                        - img
+                      - generic [ref=e193]: Scheduled reminders
+            - listitem [ref=e194]
+            - listitem [ref=e195]:
+              - generic [ref=e198]:
+                - heading "Archives" [level=2] [ref=e200]
+                - list "Archives" [ref=e201]:
+                  - listitem [ref=e202]:
+                    - link "Security log" [ref=e203] [cursor=pointer]:
+                      - /url: /settings/security-log
+                      - generic:
+                        - img
+                      - generic [ref=e204]: Security log
+                  - listitem [ref=e205]:
+                    - link "Sponsorship log" [ref=e206] [cursor=pointer]:
+                      - /url: /settings/sponsors-log
+                      - generic:
+                        - img
+                      - generic [ref=e207]: Sponsorship log
+            - listitem [ref=e208]
+            - listitem [ref=e209]:
+              - link "Developer settings" [ref=e210] [cursor=pointer]:
+                - /url: /settings/apps
+                - generic:
+                  - img
+                - generic [ref=e211]: Developer settings
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - img "Render" [ref=e218]
+            - generic [ref=e219]:
+              - heading "Render" [level=2] [ref=e220]
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - img [ref=e223]
+                  - text: Installed April 10, 2026 08:386 minutes ago
+                - generic [ref=e225]:
+                  - img [ref=e226]
+                  - text: Developed by
+                  - link "renderinc" [ref=e228] [cursor=pointer]:
+                    - /url: /renderinc
+                - generic [ref=e229]:
+                  - img [ref=e230]
+                  - link "https://render.com" [ref=e232] [cursor=pointer]:
+                    - /url: https://render.com
+          - generic [ref=e233]:
+            - heading "Render for GitHub" [level=1] [ref=e234]
+            - paragraph [ref=e235]:
+              - text: For ambitious and fast-moving teams building modern, AI-native or multi-service applications,
+              - link "Render" [ref=e236] [cursor=pointer]:
+                - /url: https://render.com
+                - strong [ref=e237]: Render
+              - text: is an intelligent cloud platform that orchestrates, scales, and heals infrastructure automatically.
+            - paragraph [ref=e238]: Build, deploy, and scale applications faster and with greater reliability than traditional cloud or serverless options.
+            - paragraph [ref=e239]:
+              - text: Install Render's app on any repository for
+              - strong [ref=e240]: automatic deploys on push
+              - text: "& fully-managed"
+              - strong [ref=e241]: preview deployments
+              - text: .
+            - heading "Whatever your stack, it runs on Render" [level=2] [ref=e242]
+            - list [ref=e243]:
+              - listitem [ref=e244]:
+                - link "Static Sites" [ref=e245] [cursor=pointer]:
+                  - /url: https://render.com/docs/static-sites
+                - text: with a blazing-fast global CDN
+              - listitem [ref=e246]:
+                - link "Web Services" [ref=e247] [cursor=pointer]:
+                  - /url: https://render.com/docs/web-services
+                - text: to run your backend APIs and dynamic web apps
+              - listitem [ref=e248]:
+                - link "Private Networking" [ref=e249] [cursor=pointer]:
+                  - /url: https://render.com/docs/private-services
+                - text: for secure internal microservices and databases
+              - listitem [ref=e250]:
+                - link "Background Workers" [ref=e251] [cursor=pointer]:
+                  - /url: https://render.com/docs/background-workers
+                - text: to process asynchronous tasks and long-running jobs
+              - listitem [ref=e252]:
+                - link "Cron Jobs" [ref=e253] [cursor=pointer]:
+                  - /url: https://render.com/docs/cronjobs
+                - text: to execute commands on a recurring, automated schedule
+              - listitem [ref=e254]:
+                - text: Fully-managed, enterprise-grade
+                - link "Postgres" [ref=e255] [cursor=pointer]:
+                  - /url: https://render.com/docs/postgresql
+                - text: with High Availability, Read Replicas, and Point-in-time-Recovery
+              - listitem [ref=e256]:
+                - text: Render
+                - link "Key Value" [ref=e257] [cursor=pointer]:
+                  - /url: https://render.com/docs/key-value
+                - text: (Redis-compatible) for caching and fast data retrieval
+            - heading "Batteries-included, from dev to prod" [level=2] [ref=e258]
+            - list [ref=e259]:
+              - listitem [ref=e260]:
+                - link "Autoscaling" [ref=e261] [cursor=pointer]:
+                  - /url: https://render.com/docs/scaling
+                - text: to automatically handle traffic spikes without manual intervention
+              - listitem [ref=e262]:
+                - link "Private Networking" [ref=e263] [cursor=pointer]:
+                  - /url: https://render.com/docs/private-services
+                - text: to securely connect your services on an isolated network
+              - listitem [ref=e264]:
+                - link "Persistent Disks" [ref=e265] [cursor=pointer]:
+                  - /url: https://render.com/docs/disks
+                - text: to store and access data that persists across deploys and restarts
+              - listitem [ref=e266]:
+                - link "Infrastructure as Code" [ref=e267] [cursor=pointer]:
+                  - /url: https://render.com/docs/infrastructure-as-code
+                - text: to define and manage your cloud resources using a simple
+                - code [ref=e268]: render.yaml
+                - text: file or Terraform
+              - listitem [ref=e269]:
+                - link "Preview Environments" [ref=e270] [cursor=pointer]:
+                  - /url: https://render.com/docs/preview-environments
+                - text: to automatically build and deploy every pull request for easy reviews
+              - listitem [ref=e271]:
+                - link "Zero Downtime Deploys" [ref=e272] [cursor=pointer]:
+                  - /url: https://render.com/docs/deploys#zero-downtime-deploys
+                - text: to ensure your application remains available during updates.
+              - listitem [ref=e273]:
+                - link "REST API" [ref=e274] [cursor=pointer]:
+                  - /url: https://render.com/docs/api
+                - text: ","
+                - link "CLI" [ref=e275] [cursor=pointer]:
+                  - /url: https://render.com/docs/cli
+                - text: ", and"
+                - link "Webhooks" [ref=e276] [cursor=pointer]:
+                  - /url: https://render.com/docs/webhooks
+                - text: to programmatically manage your Render resources and automate workflows
+              - listitem [ref=e277]: Native observability with built-in metrics, logs, and alerts, and OpenTelemetry exports
+            - heading "Start building with Render today." [level=2] [ref=e278]
+          - heading "Permissions" [level=2] [ref=e280]
+          - list [ref=e281]:
+            - listitem [ref=e282]:
+              - img [ref=e283]
+              - strong [ref=e285]: Read
+              - text: access to Dependabot alerts, code, and metadata
+            - listitem [ref=e286]:
+              - img [ref=e287]
+              - strong [ref=e289]: Read
+              - text: and
+              - strong [ref=e290]: write
+              - text: access to actions, checks, commit statuses, deployments, environments, issues, pull requests, repository hooks, and workflows
+          - heading "Repository access" [level=2] [ref=e292]
+          - generic [ref=e293]:
+            - radiogroup [ref=e298]:
+              - generic [ref=e299]:
+                - generic [ref=e300]:
+                  - radio "All repositories" [checked] [ref=e301] [cursor=pointer]
+                  - generic [ref=e302]:
+                    - generic [ref=e303] [cursor=pointer]: All repositories
+                    - generic [ref=e304]: This applies to all current and future repositories owned by the resource owner. Also includes public repositories (read-only).
+                - generic [ref=e305]:
+                  - radio "Only select repositories" [ref=e306] [cursor=pointer]
+                  - generic [ref=e307]:
+                    - generic [ref=e308] [cursor=pointer]: Only select repositories
+                    - generic [ref=e309]: Select at least one repository. Also includes public repositories (read-only).
+            - button "Save" [disabled] [ref=e310]:
+              - generic [ref=e312]: Save
+          - button "Cancel" [disabled] [ref=e313]:
+            - generic [ref=e315]: Cancel
+          - heading "Danger zone" [level=2] [ref=e317]
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - button "Suspend" [ref=e321] [cursor=pointer]
+              - strong [ref=e322]: Suspend your installation
+              - generic [ref=e323]: This will block the app access to your resources.
+            - generic [ref=e324]:
+              - button "Uninstall" [ref=e326] [cursor=pointer]
+              - strong [ref=e327]: Uninstall "Render"
+              - generic [ref=e328]: This will remove the app and revoke access to all resources.
+  - contentinfo [ref=e329]:
+    - heading "Footer" [level=2] [ref=e330]
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - link "GitHub Homepage" [ref=e333] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e334]
+        - generic [ref=e336]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e337]:
+        - heading "Footer navigation" [level=3] [ref=e338]
+        - list "Footer navigation" [ref=e339]:
+          - listitem [ref=e340]:
+            - link "Terms" [ref=e341] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e342]:
+            - link "Privacy" [ref=e343] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e344]:
+            - link "Security" [ref=e345] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e346]:
+            - link "Status" [ref=e347] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e348]:
+            - link "Community" [ref=e349] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e350]:
+            - link "Docs" [ref=e351] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e352]:
+            - link "Contact" [ref=e353] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e354]:
+            - button "Manage cookies" [ref=e356] [cursor=pointer]
+          - listitem [ref=e357]:
+            - button "Do not share my personal information" [ref=e359] [cursor=pointer]

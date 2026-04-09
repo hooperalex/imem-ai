@@ -1,0 +1,46 @@
+# imem.ai - Simple Multi-User Setup
+# Each user gets their own service
+
+version: '3.8'
+
+services:
+  # Example user instance
+  user-demo:
+    build: ./mempalace-review
+    container_name: imem-user-demo
+    volumes:
+      - ./data/users/demo:/data/palace
+    ports:
+      - "8001:8000"
+    environment:
+      - USER_ID=demo
+      - MEMPALACE_PALACE_PATH=/data/palace
+    restart: unless-stopped
+
+  # Provisioning service (creates new users)
+  provisioner:
+    build: ./provisioner
+    container_name: imem-provisioner
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./data:/data
+    ports:
+      - "3001:3000"
+    environment:
+      - DATABASE_URL=postgresql://localhost/imem
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY}
+    restart: unless-stopped
+
+  # Web UI (shared)
+  web:
+    build: ./imem-web
+    container_name: imem-web
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:3001
+    restart: unless-stopped
+
+networks:
+  default:
+    name: imem-network
