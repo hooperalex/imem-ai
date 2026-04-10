@@ -57,7 +57,7 @@ app.post('/api/search', async (req, res) => {
   try {
     const { query, userId, wing, limit = 5 } = req.body;
 
-    let cmd = `search "${query}" --limit ${limit}`;
+    let cmd = `search "${query}" --results ${limit}`;
     if (wing) cmd += ` --wing ${wing}`;
 
     const result = await mempalaceCommand(cmd);
