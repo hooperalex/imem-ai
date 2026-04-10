@@ -24,10 +24,10 @@ const openai = new OpenAI({
 
 const PALACE_PATH = process.env.MEMPALACE_PALACE_PATH || '/app/palace';
 
-// MemPalace CLI wrapper with palace path
+// MemPalace CLI wrapper (uses global config for palace path)
 async function mempalaceCommand(cmd: string): Promise<string> {
   try {
-    const fullCmd = `mempalace --palace "${PALACE_PATH}" ${cmd}`;
+    const fullCmd = `mempalace ${cmd}`;
     console.log(`Executing: ${fullCmd}`);
     const { stdout, stderr } = await execAsync(fullCmd);
     if (stderr) console.error('MemPalace stderr:', stderr);
@@ -48,7 +48,24 @@ async function ensurePalaceInitialized() {
   try {
     const fs = await import('fs');
     const path = await import('path');
+    const os = await import('os');
+
     const configPath = path.join(PALACE_PATH, 'mempalace.yaml');
+    const globalConfigDir = path.join(os.homedir(), '.mempalace');
+    const globalConfigPath = path.join(globalConfigDir, 'config.json');
+
+    // Create global config directory if needed
+    if (!fs.existsSync(globalConfigDir)) {
+      fs.mkdirSync(globalConfigDir, { recursive: true });
+    }
+
+    // Create or update global config to point to our palace
+    const globalConfig = {
+      palace_path: PALACE_PATH,
+      collection_name: 'mempalace_drawers'
+    };
+    fs.writeFileSync(globalConfigPath, JSON.stringify(globalConfig, null, 2));
+    console.log(`✓ Global MemPalace config created at ${globalConfigPath}`);
 
     // Check if palace config exists (not just the directory)
     if (!fs.existsSync(configPath)) {
