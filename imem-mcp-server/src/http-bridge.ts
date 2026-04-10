@@ -33,6 +33,11 @@ async function mempalaceCommand(cmd: string): Promise<string> {
     if (stderr) console.error('MemPalace stderr:', stderr);
     return stdout.trim();
   } catch (error: any) {
+    // Handle case where command exits with non-zero but has stdout (e.g., warnings)
+    if (error.stdout) {
+      console.warn('MemPalace completed with warnings:', error.stderr);
+      return error.stdout.trim();
+    }
     console.error('MemPalace command failed:', error);
     throw new Error(`MemPalace error: ${error.message}`);
   }
