@@ -44,7 +44,7 @@ async function ensurePalaceInitialized() {
     const fs = await import('fs');
     if (!fs.existsSync(PALACE_PATH)) {
       console.log(`Initializing MemPalace at ${PALACE_PATH}...`);
-      await execAsync(`mempalace init "${PALACE_PATH}"`);
+      await execAsync(`mempalace init "${PALACE_PATH}" --yes`);
       console.log('✓ Palace initialized');
     }
   } catch (error: any) {

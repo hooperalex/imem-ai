@@ -28,8 +28,8 @@ RUN pip3 install --break-system-packages mempalace
 # Create palace directory
 RUN mkdir -p /app/palace
 
-# Initialize MemPalace (will create default palace structure)
-RUN mempalace init /app/palace || true
+# Initialize MemPalace non-interactively
+RUN mempalace init /app/palace --yes
 
 # Expose port
 EXPOSE 10000
