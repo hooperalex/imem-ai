@@ -47,10 +47,16 @@ async function mempalaceCommand(cmd: string): Promise<string> {
 async function ensurePalaceInitialized() {
   try {
     const fs = await import('fs');
-    if (!fs.existsSync(PALACE_PATH)) {
+    const path = await import('path');
+    const configPath = path.join(PALACE_PATH, 'mempalace.yaml');
+
+    // Check if palace config exists (not just the directory)
+    if (!fs.existsSync(configPath)) {
       console.log(`Initializing MemPalace at ${PALACE_PATH}...`);
       await execAsync(`mempalace init "${PALACE_PATH}" --yes`);
       console.log('✓ Palace initialized');
+    } else {
+      console.log(`✓ Palace already initialized at ${PALACE_PATH}`);
     }
   } catch (error: any) {
     console.warn('Palace initialization warning:', error.message);
